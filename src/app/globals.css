@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-china: #b3242a;
+  --color-china-dark: #8f1b20;
+  --color-gold: #e6b35a;
+  --color-paper: #faf7f2;
+  --color-inkline: #ece5da;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-paper); }
+
+/* textareas que crescem com o conteúdo */
+.autogrow { field-sizing: content; min-height: 2.2rem; }
+
+.leaflet-container { font: inherit; }
+
+::-webkit-scrollbar { height: 8px; width: 10px; }
+::-webkit-scrollbar-thumb { background: #d8cfc2; border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }

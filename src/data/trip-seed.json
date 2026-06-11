@@ -1,0 +1,2172 @@
+{
+ "version": 1,
+ "savedAt": "2026-06-11T21:55:14.500Z",
+ "overview": [
+  {
+   "date": "2026-09-30",
+   "city": "São Paulo",
+   "m": "Saída de SP",
+   "t": "Voo",
+   "n": "Voo"
+  },
+  {
+   "date": "2026-10-01",
+   "city": "São Paulo/Beijing",
+   "m": "Chegada Doha",
+   "t": "Voo",
+   "n": "Chegada em Beijing"
+  },
+  {
+   "date": "2026-10-02",
+   "city": "Beijing",
+   "m": "Descanso",
+   "t": "Conhecer a cidade",
+   "n": "Jantar e Conhecer o centro*"
+  },
+  {
+   "date": "2026-10-03",
+   "city": "Beijing",
+   "m": "Praça da Paz Celestial (Tiananmen)",
+   "t": "Cidade Proibida",
+   "n": "Parque Jingshan"
+  },
+  {
+   "date": "2026-10-04",
+   "city": "Beijing (Mutianyu)",
+   "m": "Ir para a A Grande Muralha",
+   "t": "A Grande Muralha",
+   "n": "Volta para Beijing"
+  },
+  {
+   "date": "2026-10-05",
+   "city": "Beijing -> Xi'an",
+   "m": "Templo do Céu",
+   "t": "Trem de Alta Velocidade para Xi'an",
+   "n": "Chegada em Xi'an à noite"
+  },
+  {
+   "date": "2026-10-06",
+   "city": "Xi'an",
+   "m": "Visita aos Guerreiros de Terracota",
+   "t": "Retorno ao Centro",
+   "n": "Conhecer Bairro Muçulmano"
+  },
+  {
+   "date": "2026-10-07",
+   "city": "Xi'an",
+   "m": "Muralha da Cidade de Xi'an",
+   "t": "Grande Pagode do Ganso Selvagem",
+   "n": "Show Fontes Musicais\n(Pagode — gratuito, 21h!)"
+  },
+  {
+   "date": "2026-10-08",
+   "city": "Xi'an",
+   "m": "Palácio Huaqing\n(Harém Imperial, Séc. VIII)",
+   "t": "Trem AVE para Chengdu (2h)",
+   "n": "Chegada em Chengdu\nJantar Sichuan Hot Pot"
+  },
+  {
+   "date": "2026-10-09",
+   "city": "Chengdu",
+   "m": "Base de Pesquisa de\nPandas Gigantes",
+   "t": "Jinli Ancient Street\n+ Parque do Povo",
+   "n": "Sichuan Hot Pot\n+ Ópera Sichuan (Bian Lian)"
+  },
+  {
+   "date": "2026-10-10",
+   "city": "Chengdu",
+   "m": "Grande Buda de Leshan\n(barco panorâmico)",
+   "t": "Leshan — descida trilha\naté os pés do Buda",
+   "n": "Trem de Chengdu para Guilin (Leva 7 horas)"
+  },
+  {
+   "date": "2026-10-11",
+   "city": "Guilin",
+   "m": "Chegada em Gulin",
+   "t": "Elephant Trunk Hill ou Reed Flute Cave",
+   "n": "Two Rivers & Four Lakes"
+  },
+  {
+   "date": "2026-10-12",
+   "city": "Gulin (Yangshuo)",
+   "m": "Transfer para o píer e Cruzeiro do Rio Li",
+   "t": "Desembarque em Yangshuo",
+   "n": "Jantar em Yangshuo"
+  },
+  {
+   "date": "2026-10-13",
+   "city": "Guilin (Yangshuo)",
+   "m": "Escalada ao Moon Hill",
+   "t": "Passeio de jangada de bambu no Rio Yulong",
+   "n": "Conhecer cidade ou Show \"Impression Sanjie Liu\""
+  },
+  {
+   "date": "2026-10-14",
+   "city": "Guilin (Yangshuo)",
+   "m": "Transfer + trilha do Li river (cedo)",
+   "t": "Almoçar + transfer de volta para Gulin",
+   "n": "Volta para Gulin e trem para Xangai"
+  },
+  {
+   "date": "2026-10-15",
+   "city": "Xangai",
+   "m": "Caminhada pelo The Bund",
+   "t": "Ir de balsa para Lujiazui, ir na Shanghai Tower",
+   "n": "Livre"
+  },
+  {
+   "date": "2026-10-16",
+   "city": "Xangai",
+   "m": "Zhujiajiao —\nVila dos Canais (day trip)",
+   "t": "Barco pelos canais\n+ Jardins Ming/Qing",
+   "n": "Jantar Concessão\nFrancesa"
+  },
+  {
+   "date": "2026-10-17",
+   "city": "Xangai",
+   "m": "Antiga Concessão Francesa (Tianzifang  ou Xintiandi)",
+   "t": "Jardim Yuyuan",
+   "n": "Livre"
+  },
+  {
+   "date": "2026-10-18",
+   "city": "Xangai/São Paulo",
+   "m": "Compras na Nanjing Road ou visita ao Museu de Xangai",
+   "t": "Transfer para o aeroporto de Pudong (PVG) usando o Trem Maglev",
+   "n": "Ida para aeroporto Voo para DOHA"
+  },
+  {
+   "date": "2026-10-19",
+   "city": "Doha",
+   "m": "Chegada em Doha (05:00)",
+   "t": "Dia em DOHA",
+   "n": "Ida para aeroporto"
+  },
+  {
+   "date": "2026-10-20",
+   "city": "Xangai/São Paulo",
+   "m": "Voo para SP (01:40)",
+   "t": "Chegada em SP (10:40)",
+   "n": "Chegada em SP"
+  }
+ ],
+ "notes": [
+  "*Opções de jantar: Siji Minfu, Da Dong",
+  "** Opções Chengdu: Sichuan Hot Pot, Jinli Ancient Street, Kuanzhai Alley, Ópera Sichuan (Bian Lian)",
+  "***Wuhou Shrin no chengdu eh opção",
+  "🟠 Células laranja = alterações vs. roteiro original",
+  "tv tower?",
+  "✏️ ALTERAÇÕES vs. ORIGINAL: Xi'an +1 dia (06-08/out) | Chengdu condensado (09-10/out, Qingcheng removido) | Sab 16/out: Zhujiajiao substituiu Dia Livre"
+ ],
+ "cities": [
+  {
+   "id": "beijing",
+   "name": "Beijing",
+   "range": "02/out – 05/out",
+   "color": "#c0392b",
+   "lat": 39.9042,
+   "lng": 116.4074,
+   "days": [
+    {
+     "date": "2026-10-02",
+     "title": "Chegada & Nanluoguxiang",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã no hotel\n😴 Descanso do jet lag\n🏨 Dia tranquilo"
+      },
+      {
+       "t": "09:00",
+       "x": "🏘️ Nanluoguxiang — Hutong histórico\nLojas de artesanato, cafés charmosos\n⏱️ 1h30 de passeio a pé"
+      },
+      {
+       "t": "11:00",
+       "x": "🛍️ Wangfujing Street\nRua de compras; petiscos exóticos\n(escorpião, larva, estrela do mar!)\n⏱️ 1h30"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço em Wangfujing\n🦆 Quanjude Roast Duck\n💰 ~¥100-150/pessoa\n📍 255 Wangfujing St"
+      },
+      {
+       "t": "15:00",
+       "x": "🚲 Explorar Hutongs de bicicleta\nAluguel ~¥50/hora\nOU: Summer Palace (Palácio de Verão)\n🎟️ ¥30 | ⏱️ 2h"
+      },
+      {
+       "t": "17:00",
+       "x": "🌅 Lago Houhai ao pôr do sol\n🚲 Bicicleta à beira do lago\n🏮 Atmosfera Beijing histórica"
+      },
+      {
+       "t": "19:00",
+       "x": "🦆 JANTAR ESPECIAL — Pato de Pequim!\nSiji Minfu: ¥150-200/pessoa\nDa Dong: ¥200-300 (mais sofisticado)\n📍 Dongcheng District"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 Wangfujing à noite\n🏮 Stands de rua noturnos\n📸 Fotos com luzes da cidade"
+      },
+      {
+       "t": "23:00",
+       "x": "🏨 Retorno ao hotel\n💤 Dormir — jet lag!"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-03",
+     "title": "Tiananmen + Cidade Proibida",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã cedo\n🎒 Organizar mochila do dia"
+      },
+      {
+       "t": "09:00",
+       "x": "🏛️ Praça Tiananmen\nMaior praça do mundo (440.000 m²)\n🎟️ Gratuita — levar passaporte\n⏱️ 1h30 de visita"
+      },
+      {
+       "t": "11:00",
+       "x": "🏯 CIDADE PROIBIDA (Forbidden City)\nMaior palácio do mundo — 9.999 salas!\n🎟️ ¥60 (+ ¥10 jardim imperial)\n⚠️ Reservar ONLINE com antecedência!"
+      },
+      {
+       "t": "13:00",
+       "x": "🍱 Almoço próximo à Cidade Proibida\nJingweizhai (autêntico e barato)\n💰 ~¥60-100/pessoa\n📍 Saída lateral norte"
+      },
+      {
+       "t": "15:00",
+       "x": "🏯 Continuar Cidade Proibida\nAla leste, oeste & Jardim Imperial\n📸 Pôr do sol da Colina do Carvão\n(Jingshan Park — ¥2!)"
+      },
+      {
+       "t": "17:00",
+       "x": "⛰️ Parque Jingshan (Coal Hill)\nPonto mais alto do centro histórico\n🏯 Vista da Cidade Proibida ao pôr do sol!\n🎟️ ¥2 — imperdível"
+      },
+      {
+       "t": "19:00",
+       "x": "🌃 Passeio noturno Lago Houhai\n🍺 Bares à beira d'água\n🎵 Música ao vivo nas ruelas"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 Hutong noturno\n🏮 Ruelas iluminadas\n🎉 Atmosfera única de Beijing"
+      },
+      {
+       "t": "23:00",
+       "x": "🏨 Retorno ao hotel"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-04",
+     "title": "Grande Muralha (Mutianyu)",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "⚠️ Café da manhã às 6:30!\n🚌 Sair ATÉ 7:30 para Mutianyu\n(chegar antes da multidão)"
+      },
+      {
+       "t": "09:00",
+       "x": "🚡 Teleférico em Mutianyu\n🏔️ Explorar a Grande Muralha\n📸 Vista espetacular do alto\n🎟️ ¥45 entrada + ¥100 teleférico"
+      },
+      {
+       "t": "11:00",
+       "x": "🧱 Explorar a Muralha\n22 torres no trecho de Mutianyu\n🛷 Tobogã na descida ¥55 (imperdível!)\n📸 Torre 14 = melhor foto"
+      },
+      {
+       "t": "13:00",
+       "x": "🍽️ Almoço na área da Muralha\n⚠️ Preços turísticos — leve lanche!\n💰 ~¥80-120/pessoa\n🔜 Após: retorno a Beijing"
+      },
+      {
+       "t": "15:00",
+       "x": "🚌 Retorno a Beijing\n⏱️ ~1h45 de viagem\n😴 Descansar no ônibus\n📍 Chegada ~17:00"
+      },
+      {
+       "t": "17:00",
+       "x": "🏨 Check-in + banho\n😴 Descanso merecido\n🍜 Jantar mais leve hoje"
+      },
+      {
+       "t": "19:00",
+       "x": "🍜 Jantar no Hutong próximo ao hotel\nComa leve após dia intenso\n💰 ~¥70-100/pessoa"
+      },
+      {
+       "t": "21:00",
+       "x": "😴 Descanso — Grande Muralha cansa!\n🧘 Alongamento e hidratação"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir — dia intenso na muralha!"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "title": "Templo do Céu → Xi'an",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã\n🎒 Última manhã em Beijing\n📦 Mala pronta → Xi'an"
+      },
+      {
+       "t": "09:00",
+       "x": "🏛️ Templo do Céu (Temple of Heaven)\nComplexo budista do séc. XV\n🎟️ ¥30 parque + ¥20 Salão da Oração\n⏱️ 2h30 para ver tudo"
+      },
+      {
+       "t": "11:00",
+       "x": "🌿 Parque Tiantan (entorno)\n🧓 Tai chi, dança, mahjong às 9h!\n📸 Ótimo para fotos de rua"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço próximo ao Templo\nLao Beijing Zhajiangmian\n💰 ~¥50-70/pessoa\n🔜 Retornar ao hotel após"
+      },
+      {
+       "t": "15:00",
+       "x": "🏨 Retorno ao hotel\n🧳 Finalizar mala\n😴 Descanso"
+      },
+      {
+       "t": "17:00",
+       "x": "🚄 Deslocamento → Estação Beijing West\n⏱️ Sair 1h antes do embarque\n🎟️ G-train AVE ~¥553 (4h30)\nEstação: Beijing West (北京西)"
+      },
+      {
+       "t": "19:00",
+       "x": "🚄 A BORDO DO TREM PARA XI'AN\n🛌 Aproveite para descansar\n📍 Chegada Xi'an: ~22:30\n🚕 Taxi/Didi ao hotel (~¥50)"
+      },
+      {
+       "t": "21:00",
+       "x": "🚄 Chegada em Xi'an\n🚕 Taxi/Didi ao hotel (~30 min)\n💰 ~¥50-70"
+      },
+      {
+       "t": "23:00",
+       "x": "🏨 Check-in Xi'an\n💤 Dormir"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [
+     "🦆 Da Dong (大董) — Melhor Pato Pequim! | Dongsi Branch, 22 Dongsishitiao | ¥200-300/pessoa | Reservar!",
+     "🦆 Siji Minfu (四季民福) — Excelente custo-benefício | 32 Dengshikou St, Dongcheng | ¥150-200/pessoa",
+     "🍜 Lao Beijing Zhajiangmian — Macarrão tradicional clássico | perto de Wangfujing | ¥50-80/pessoa",
+     "🥟 Baoyuan Jiaozi (宝源饺子屋) — Dumplings coloridos famosos | Maizidian West St | ¥60-90/pessoa"
+    ],
+    "ingressos": [
+     "🏯 Cidade Proibida — ¥60 | OBRIGATÓRIO reservar online: pm.dpm.org.cn | Esgota semanas antes!",
+     "🏛️ Praça Tiananmen — Gratuita | Passaporte obrigatório | Filas longas nas entradas",
+     "🕌 Templo do Céu — ¥30 parque + ¥20 Salão | Aberto 6h-22h | Chegar cedo p/ tai chi",
+     "🧱 Grande Muralha Mutianyu — ¥45 + ¥100 teleférico i/v | Tobogã ¥55 | mutianyugreatwall.com",
+     "⛰️ Parque Jingshan — ¥2 | Melhor: pôr do sol 17:30 | 🏯 Vista da Cidade Proibida"
+    ],
+    "transportes": [
+     "🚇 Metrô — ¥3-5/viagem | Cartão recarregável Yikatong | Cobre toda a cidade",
+     "🚕 Didi — App essencial | Configure antes de chegar | Aceita cartão internacional",
+     "✈️ Aeroporto PEK → Centro: Linha Express Airport ¥25 (30 min) ou Taxi ~¥130-180",
+     "🧱 Hotel → Mutianyu: Tour organizado ¥200-350 | ou Bus 916+H6 ¥20 (2h, mais trabalhoso)",
+     "🚄 Beijing → Xi'an: G-train AVE | 4h30 | ¥553 executiva | 12306.cn ou Trip.com"
+    ],
+    "dicas": [
+     "📱 Apps: Didi | Pleco (tradutor) | WeChat/Alipay | Maps.me offline | Baidu Maps",
+     "📶 VPN necessária para Google, WhatsApp, Instagram — contrate ANTES de embarcar no Brasil",
+     "💳 China é quase cashless — configure WeChat Pay ou Alipay com cartão international",
+     "👟 Calçados confortáveis — Cidade Proibida = 720.000 m² em paralelepípedo irregular",
+     "⏰ Mutianyu: chegar antes das 9h. Depois: fila longa no teleférico e multidão na muralha",
+     "🌡️ Outubro: 10-22°C | Leve uma jaqueta leve para dias frios e noites"
+    ],
+    "alteracoes": []
+   }
+  },
+  {
+   "id": "xian",
+   "name": "Xi'an",
+   "range": "06/out – 08/out",
+   "color": "#d35400",
+   "lat": 34.3416,
+   "lng": 108.9398,
+   "days": [
+    {
+     "date": "2026-10-06",
+     "title": "Terracota + Bairro Muçulmano",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã no hotel\nSaída para Terracota às 8:30\n🚕 Taxi/tour ~¥100 i/v (1h)"
+      },
+      {
+       "t": "09:00",
+       "x": "⚔️ GUERREIROS DE TERRACOTA\nFosso 1 (maior), 2 e 3\nMuseu descoberto em 1974\n🎟️ ¥120 | ⏱️ Chegar às 8:30 — antes dos ônibus!"
+      },
+      {
+       "t": "11:00",
+       "x": "⚔️ Continuar Terracota\nFosso 3 tem o 'estado-maior' do exército\nMuseu dos Guerreiros de Bronze\n📸 Melhor foto: plataforma do Fosso 1"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço perto da Terracota\n🥣 Biangbiang Noodles — prato típico Xi'an!\nNoodles largos com pimenta e alho\n💰 ~¥30-50/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🚌 Retorno a Xi'an (~1h)\n😴 Descanso no hotel\n🔋 Recarregar para noite animada!"
+      },
+      {
+       "t": "17:00",
+       "x": "🧱 MURALHA DA CIDADE DE XI'AN\n🚲 Alugue bicicleta — circule os 13,7 km!\n🎟️ ¥54 + ¥45 bicicleta | ⏱️ 2h\nSentido horário para melhor vista"
+      },
+      {
+       "t": "19:00",
+       "x": "🕌 BAIRRO MUÇULMANO (Huimin Jie)\nMercado animado com 1.000 anos de história\n🍢 Coma tudo: Roujiamo, Yangrou Paomo,\nliangpi (macarrão frio apimentado)\n⏱️ 2h de exploração"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 Jantar no Bairro Muçulmano\n🥟 De Fa Chang (Dumplings famosos)\n💰 ~¥80-120/pessoa\n🏮 Passeio noturno"
+      },
+      {
+       "t": "23:00",
+       "x": "🌃 Passeio noturno em Xi'an\n🏯 Muralha iluminada (vista de fora)\n📸 Fotos espetaculares com luzes"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-07",
+     "title": "Muralha da Cidade + Pagode",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã tranquilo\n🚲 Dia mais relaxado — sem corrida!\nDia mais intenso ficou ontem"
+      },
+      {
+       "t": "09:00",
+       "x": "🧱 MURALHA DA CIDADE DE XI'AN\n🚲 Alugar bicicleta e circular os 13,7 km!\n🎟️ ¥54 + ¥45 bike | ⏱️ 2h de pedalada\nVista incrível do interior e exterior"
+      },
+      {
+       "t": "11:00",
+       "x": "🏯 Finalizar circuito da Muralha\nTorre do Sino (Bell Tower) e do Tambor\n🎟️ ¥35 cada | ⏱️ 45 min cada\n📍 No centro histórico"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço próximo à Muralha\n🥙 Roujiamo (sanduíche Xi'an) — rápido!\n💰 ~¥15-30/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🦢 GRANDE PAGODE DO GANSO SELVAGEM\nSéculo VII — arquitetura Tang\n🎟️ ¥50 pagode + ¥30 parque | ⏱️ 1h30\nSubir ao topo para vista da cidade"
+      },
+      {
+       "t": "17:00",
+       "x": "🕌 BAIRRO MUÇULMANO (Huimin Jie)\nMercado árabe-chinês único na China\n🍢 Experimente: Roujiamo, Yangrou Paomo,\ndoces, especiarias, tâmaras\n⏱️ 1h30 de exploração"
+      },
+      {
+       "t": "19:00",
+       "x": "🍜 Jantar no Bairro Muçulmano\n🥟 De Fa Chang — Dumplings famosos!\n💰 ~¥80-120/pessoa\nExperiente: Banquete de 108 dumplings"
+      },
+      {
+       "t": "21:00",
+       "x": "✨ SHOW DE FONTES MUSICAIS\nEm frente ao Pagode do Ganso Selvagem\n🎆 GRATUITO — espetáculo de luzes e água!\n⏱️ Às 21:00 e 21:30 | ⏱️ 20 min"
+      },
+      {
+       "t": "23:00",
+       "x": "🌃 Retorno ao hotel\n🏨 Descanso após noite longa"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-08",
+     "title": "Palácio Huaqing → Chengdu",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã\n🎒 Check-out — mala pronta p/ Chengdu\n🚕 Saída para Huaqing ~9h"
+      },
+      {
+       "t": "09:00",
+       "x": "🏯 PALÁCIO HUAQING (华清宫)\nHarém do Imperador Xuanzong, Séc. VIII\nFontes termais milenares ainda ativas\n🎟️ ¥150 | ⏱️ 2h | Fica perto da Terracota"
+      },
+      {
+       "t": "11:00",
+       "x": "🌿 Palácio Huaqing — explorar jardins\nCena do Amor: história da Concubina Yang\nConhecida como 'a mulher mais bela da China'\n📸 Jardins com cerejeiras"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço em Huaqing ou retorno\nRestaurante local no complexo\n💰 ~¥50-80/pessoa\n🔜 Após: retornar a Xi'an (1h)"
+      },
+      {
+       "t": "15:00",
+       "x": "🚕 Retorno a Xi'an (~1h)\n🏨 Check-out — guardar mala na estação\n😴 Descanso antes do trem"
+      },
+      {
+       "t": "17:00",
+       "x": "🕌 Bairro Muçulmano — última vez!\n🛍️ Compras de lembrança: especiarias, jade\n🍢 Lanchar antes do trem\n💰 ~¥30-50"
+      },
+      {
+       "t": "19:00",
+       "x": "🚄 TREM AVE PARA CHENGDU\nG-train Xi'an → Chengdu\n⏱️ ~2h de viagem | ¥230-350\n📍 Chegada Chengdu ~19:00-20:00"
+      },
+      {
+       "t": "21:00",
+       "x": "🏨 Check-in em Chengdu\n🍜 Jantar leve — Sichuan Hot Pot!\n⚠️ Peça 'wēi là' (um pouco picante)"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir — amanhã: Pandas!\nChengdu às 20h ≈ jantar + dormir cedo"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [
+     "🥟 De Fa Chang (德发长) — Banquete de 108 Dumplings lendário | Zhonglou Square | ¥80-150/pessoa",
+     "🍜 Biangbiang Noodles (biáng biáng面) — Macarrão largo e apimentado | Bairro Muçulmano | ¥20-35",
+     "🥙 Roujiamo (肉夹馍) — O 'hambúrguer chinês'; cordeiro ou porco | Bairro Muçulmano | ¥10-15",
+     "🍲 Yangrou Paomo (羊肉泡馍) — Sopa de cordeiro com pão — esfarelar o pão é parte do ritual | ¥40-60",
+     "🍡 Liangpi (凉皮) — Macarrão frio apimentado com gergelim | ¥10-15 | refrescante"
+    ],
+    "ingressos": [
+     "⚔️ Guerreiros de Terracota — ¥120 | 8:30-17:30 | Inclui 3 fossos e museu | doit.org.cn",
+     "🏯 Palácio Huaqing (华清宫) — ¥150 | Fica a 30 km Xi'an, caminho da Terracota | ⏱️ 2h",
+     "🧱 Muralha da Cidade — ¥54 + ¥45 bicicleta | Aberto 8h-22h | Circuito completo 13,7 km",
+     "🦢 Pagode Ganso Selvagem — ¥50 pagode + ¥30 parque | Melhor: noite c/ show de fontes",
+     "✨ Show Fontes Musicais — GRATUITO! | Em frente ao Pagode | 21:00 e 21:30 | ⏱️ 20 min",
+     "🎭 Show Beleza Tang (唐乐宫) — ¥280 | Dança imperial + jantar | Opcional p/ noite do dia 2"
+    ],
+    "transportes": [
+     "🚕 Xi'an → Terracota: Taxi ¥100-130 i/v (45 min) | ou Bus 306 ¥7 (1h, mais trabalhoso)",
+     "🚕 Xi'an → Huaqing Palace: Taxi ¥80-100 (30 min) | Pode combinar com Terracota no mesmo dia",
+     "🚇 Metrô Xi'an — Linhas 1, 2, 3 | Cobre centro histórico | ¥2-4/viagem",
+     "🚄 Xi'an → Chengdu: G-train 2h | ¥230-350 | Estação Xi'an North (北站) | Trip.com ou 12306.cn"
+    ],
+    "dicas": [
+     "⚔️ Terracota: chegar às 8:30 (abertura) — ônibus de turismo chegam às 10h e triplicam a multidão",
+     "🚲 Muralha: pedale no sentido horário para melhor luz de manhã | Leve água!",
+     "✨ Show de fontes do Pagode: às 21h, gratuito, espetacular — não pule por causa do cansaço!",
+     "🏯 Palácio Huaqing: combine com Terracota (mesmo eixo) ou visite separado no dia 3",
+     "📸 Guerreiros: Fosso 1 tem a maior concentração | Fosso 3 tem o 'estado-maior' — não pule!",
+     "🌙 Bairro Muçulmano: prefira depois das 18h — mais animado, luzes acesas, menos calor"
+    ],
+    "alteracoes": [
+     "➕ Xi'an ampliado de 2 para 3 dias — cidade muito subestimada no roteiro original",
+     "➕ Dia 3 (08/out): Palácio Huaqing adicionado — harém imperial do séc. VIII, a 30 min da Terracota",
+     "➕ Show de Fontes Musicais (gratuito!) adicionado na noite do Pagode do Ganso Selvagem (07/out 21h)",
+     "✏️ Ritmo distribuído melhor: Terracota + Muçulmano (dia 1) | Muralha + Pagode (dia 2) | Huaqing + trem (dia 3)",
+     "⚠️ O dia extra de Xi'an vem da realocação do 'Dia Livre' de Xangai (substituído por Zhujiajiao)"
+    ]
+   }
+  },
+  {
+   "id": "chengdu",
+   "name": "Chengdu",
+   "range": "09/out – 10/out",
+   "color": "#27ae60",
+   "lat": 30.5728,
+   "lng": 104.0668,
+   "days": [
+    {
+     "date": "2026-10-09",
+     "title": "Pandas + Jinli + Ópera Sichuan",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã CEDO (6:30!)\nPandas são mais ativos de manhã!\n🚕 Sair às 7h | ~30-40 min"
+      },
+      {
+       "t": "09:00",
+       "x": "🐼 BASE DE PESQUISA DE PANDAS\nVer alimentação dos pandas (~9h-10h)\nFilhotes de panda — os mais fofos!\n🎟️ ¥55 | ⏱️ 3h de visita"
+      },
+      {
+       "t": "11:00",
+       "x": "🐼 Continuar Base de Pandas\nSeção filhotes (especial!)\nLoja de souvenirs temáticos\n📸 Melhores fotos da viagem!"
+      },
+      {
+       "t": "13:00",
+       "x": "🔜 Retorno ao centro (~30 min)\n🍜 Almoço — Sichuan Hot Pot!\n⚠️ Peça 'wēi là' (pouco picante)\n💰 ~¥80-150/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🏛️ PARQUE DO POVO (Renmin Park)\n🌸 Lago, jardins, teahouses tradicionais\n☕ Tome chá e observe o mahjong local\n🀄 Atmosfera impagável"
+      },
+      {
+       "t": "17:00",
+       "x": "🏮 JINLI ANCIENT STREET\nRua histórica período Han\nArtesanatos, lanches, sombras de marionetes\n⏱️ 1h30 de passeio"
+      },
+      {
+       "t": "19:00",
+       "x": "🌶️ Jantar — Sichuan Hot Pot!\n🔥 Haidilao: serviço lendário + boa comida\n💰 ~¥120-200/pessoa\nReservar para não esperar"
+      },
+      {
+       "t": "21:00",
+       "x": "🎭 ÓPERA SICHUAN (Bian Lian)\nTroca de máscaras mágica!\n🎟️ ¥180-280 | 20h00\nShufeng Yayun Theatre ou Jinli"
+      },
+      {
+       "t": "23:00",
+       "x": "🏮 Kuanzhai Alley — última noite!\nBares, snacks de rua, atmosfera incrível\n📸 Muito fotogênico"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-10",
+     "title": "Grande Buda de Leshan → Trem Guilin",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã\n🚄 Trem para Leshan\n⏱️ Saída ~8h | 1h30 de viagem | ¥25-35"
+      },
+      {
+       "t": "09:00",
+       "x": "🛶️ Barco para ver o Grande Buda\nMelhor perspectiva: de baixo, pelo rio!\nO Buda mede 71m — a orelha tem 7m!\n🎟️ ¥70 (barco incluso)"
+      },
+      {
+       "t": "11:00",
+       "x": "🏔️ Trilha para descida ao nível dos pés\nFila pode ter 1-2h — vale cada minuto!\n📸 Vista de cima antes de descer\n⏱️ 2h de trilha total"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço em Leshan\n🐟 Peixe do Rio Min — especialidade local!\n💰 ~¥50-80/pessoa\n📍 Restaurantes na cidade velha"
+      },
+      {
+       "t": "15:00",
+       "x": "🕌 Grande Buda — arredores\nTemplo Lingyun (vista do alto)\nJardins e pagode perto do Buda\n⏱️ 1h de exploração"
+      },
+      {
+       "t": "17:00",
+       "x": "🚄 Retorno trem Leshan → Chengdu\n⏱️ 1h30 | ~¥25-35\n😴 Descanso no trem\n📍 Chegada Chengdu ~17:30"
+      },
+      {
+       "t": "19:00",
+       "x": "🏨 Retorno ao hotel\n🧳 Pegar mala — check-out\n🍜 Jantar rápido perto da estação\n💰 ~¥50-70"
+      },
+      {
+       "t": "21:00",
+       "x": "🚄 TREM NOTURNO PARA GUILIN\n⏱️ ~7-10h de viagem\n🛌 Vagão leito — leve travesseiro!\n💰 ¥200-350 leito médio"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir no trem\nChegada em Guilin pela manhã"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [
+     "🔥 Haidilao (海底捞) — Hot Pot premium com serviço lendário (manicure enquanto espera!) | ¥120-200/pessoa",
+     "🍲 Chen Mapo Doufu (陈麻婆豆腐) — Mapo Tofu original desde 1862 | Xiyulong St | ¥60-100/pessoa",
+     "🍢 Jinli Street Food — Tangyuan, pé de coelho apimentado, sorvete panda | ¥10-30 por item",
+     "🌶️ Dan Dan Noodles (担担面) — Macarrão apimentado com amendoim e carne moída | ¥15-25",
+     "☕ Teahouses do Parque do Povo — Chá com petiscos | ¥20-50 | Atmosfera que não tem preço"
+    ],
+    "ingressos": [
+     "🐼 Base de Pesquisa de Pandas — ¥55 | Aberto 7:30-18h | CHEGAR ÀS 8H — pandas dormem depois das 11h!",
+     "🗿 Grande Buda de Leshan — ¥90 (barco incluso) | Fila longa para descer até os pés — normal e vale!",
+     "🎭 Ópera Sichuan (Bian Lian) — ¥180-280 | Shufeng Yayun Theatre 20h | Reservar com 2 dias de antecedência",
+     "🏮 Wuhou Shrine — ¥60 | Templo de Zhuge Liang | Próximo à Jinli Street — pode combinar"
+    ],
+    "transportes": [
+     "🐼 Hotel → Base de Pandas: Metrô L3 até Panda Ave ou Didi ¥30-40 | ⏱️ 30-40 min",
+     "🚄 Chengdu → Leshan: Trem ¥25-35 | 1h30 | Estação Chengdu East (东站) → Leshan",
+     "🚄 Chengdu → Guilin: Trem noturno Z-series ~7-10h | ¥200-350 leito médio | 12306.cn",
+     "🚇 Metrô Chengdu — Linhas 1-6 | ¥2-5 | Cobre tudo: aeroporto, estação, centro, Pandas"
+    ],
+    "dicas": [
+     "🐼 Pandas são MAIS ATIVOS das 8h-11h — depois dormem 14h por dia. Chegar cedo é obrigatório",
+     "🌶️ Comida Sichuan é MUITO picante. Peça 'bù là' (sem pimenta) ou 'wēi là' (pouco picante)",
+     "🚡 Grande Buda: o barco dá a melhor perspectiva geral. Descer a trilha até os pés é imperdível",
+     "🎭 Ópera Sichuan: a troca de máscaras (Bian Lian) é mágica. Reserve ingresso pelo hotel ou Trip.com",
+     "🕑 Trem noturno para Guilin: leve lanche, fone de ouvido, roupa confortável e travesseiro inflável"
+    ],
+    "alteracoes": [
+     "✂️ Mount Qingcheng REMOVIDO — trilha bonita mas sem o caráter único dos outros atrativos",
+     "✂️ Chengdu condensado de 3 para 2 dias — o dia extra foi para Xi'an, que precisava mais",
+     "✅ Mantidos: Pandas Gigantes + Grande Buda de Leshan + Parque do Povo + Jinli + Ópera Sichuan",
+     "✅ Ritmo muito melhor: sem mais o dia 'trilha de manhã + trem noturno à noite' (o mais puxado do original)",
+     "✅ Agora: dia 1 = Pandas + cultura Chengdu | dia 2 = Leshan + trem noturno (separados com clareza)"
+    ]
+   }
+  },
+  {
+   "id": "guilin",
+   "name": "Guilin & Yangshuo",
+   "range": "11/out – 14/out",
+   "color": "#16a085",
+   "lat": 25.2742,
+   "lng": 110.29,
+   "days": [
+    {
+     "date": "2026-10-11",
+     "title": "Chegada + Elephant Trunk Hill",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "🚄 Chegada de trem de Chengdu\n🏨 Check-in ou guarda-bagagem\n☕ Café da manhã na cidade"
+      },
+      {
+       "t": "09:00",
+       "x": "😴 Descanso no hotel\nRecuperar da viagem de trem noturno\n🛌 Dormir + banho + relaxar"
+      },
+      {
+       "t": "11:00",
+       "x": "🐘 ELEPHANT TRUNK HILL\nSímbolo de Guilin — tromba na água!\n🎟️ ¥75 | ⏱️ 1h\n💡 Dica: melhor foto é da margem oposta (grátis!)"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço em Guilin\n🍲 Beer Fish — prato típico local!\n💰 ~¥60-80/pessoa\n🐟 Peixe do Rio Li"
+      },
+      {
+       "t": "15:00",
+       "x": "🌊 REED FLUTE CAVE (芦笛岩)\nGruta de estalactites iluminada\n🎟️ ¥100 | ⏱️ 1h30 de tour guiado\n📸 Cores LED fascinantes"
+      },
+      {
+       "t": "17:00",
+       "x": "🏨 Descanso no hotel\n😴 Recuperar da viagem noturna\nOU: explorar o centro de Guilin"
+      },
+      {
+       "t": "19:00",
+       "x": "🌃 Jantar em Guilin\n🍜 Guilin Rice Noodles (桂林米粉)\nO prato símbolo da cidade | ¥10-20/tigela\n🐟 Peixe do Rio Li assado"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 TWO RIVERS & FOUR LAKES\nPasseio de barco noturno iluminado\nTemplos e pagodes brilhando no lago\n🎟️ ¥90-150 | ⏱️ 1h30"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir — dia muito intenso!"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-12",
+     "title": "Cruzeiro Rio Li → Yangshuo",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "⚠️ Acordar às 6h — barco cedo!\n☕ Café da manhã rápido no hotel\n🎒 Levar só mochila (vai p/ Yangshuo)"
+      },
+      {
+       "t": "09:00",
+       "x": "🚢 Transfer para o Píer\n⏱️ 30 min de transfer\nEmbarque no Cruzeiro do Rio Li\n🎟️ ¥210-490 (por classe)"
+      },
+      {
+       "t": "11:00",
+       "x": "🛶️ CRUZEIRO RIO LI\nGuilin → Yangshuo (83 km)\nPaisagem dos picos de carste — igual às cédulas!\n⏱️ 4-5h de cruzeiro"
+      },
+      {
+       "t": "13:00",
+       "x": "🛶️ Chegada em Yangshuo!\n🍜 Almoço em Yangshuo\nBeer Fish no Mei Mei Café\n💰 ~¥60-90/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🚲 Explorar Yangshuo de bike\nWest Street — lojinhas e cafés\n📍 Picos de carste ao redor\n⏱️ 2h de exploração"
+      },
+      {
+       "t": "17:00",
+       "x": "🏨 Check-in em Yangshuo\n🚲 Explorar a cidade\n📍 West Street (rua pedestre famosa)"
+      },
+      {
+       "t": "19:00",
+       "x": "🌃 Jantar em Yangshuo\nBeer Fish no Mei Mei Bar & Café\n💰 ~¥70-100/pessoa\nAtmosfera backpacker vibrante"
+      },
+      {
+       "t": "21:00",
+       "x": "🏮 Yangshuo noturna\nWest Street iluminada\nBares, música ao vivo nos beiradões"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir em Yangshuo"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "title": "Moon Hill + Rio Yulong + Show",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã\n🚲 Alugar bicicleta assim que sair!\n💰 ~¥50-80/dia | Tudo é de bike aqui"
+      },
+      {
+       "t": "09:00",
+       "x": "🌄 ESCALADA AO MOON HILL\n⏱️ 30 min de bike + 30 min de subida\nVista panorâmica: buraco em forma de lua!\n🎟️ ¥15"
+      },
+      {
+       "t": "11:00",
+       "x": "🎋 JANGADA DE BAMBU — RIO YULONG\nMais tranquilo e bonito que o Rio Li\n💰 ¥120-150/jangada (2 pessoas)\n⏱️ 1h30 flutuando"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço na zona rural\nRestaurantes simples e autenticos\n💰 ~¥40-60/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🏡 Campos de arroz e aldeias\nCiclismo entre os picos de karste\n📸 Melhor paisagem rural da China\n⏱️ 2h de pedalada"
+      },
+      {
+       "t": "17:00",
+       "x": "🏨 Descanso no hotel\nOU: ciclismo pelas aldeias vizinhas\n📸 Editar as fotos incríveis"
+      },
+      {
+       "t": "19:00",
+       "x": "🎭 SHOW 'IMPRESSION SANJIE LIU'\nDireção: Zhang Yimou!\n1.000 atores em palco no rio iluminado!\n🎟️ ¥238-588 | 20:00 | ⏱️ 1h"
+      },
+      {
+       "t": "21:00",
+       "x": "🌌 Pós-show — Yangshuo noturna\n📸 O show é na orla — fotos do espetáculo\nBares próximos para encerrar a noite"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir após o show"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "title": "Trilha Li River → Trem Xangai",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "⚠️ Acordar às 5:30!\n☕ Café leve\nTransfer para trilha cedo\n🌅 Luz dourada ao amanhecer!"
+      },
+      {
+       "t": "09:00",
+       "x": "🌅 TRILHA DO RIO LI (manhã cedo)\nMelhor luz da viagem inteira!\nPicos de karst ao amanhecer\n⏱️ 2-3h de caminhada"
+      },
+      {
+       "t": "11:00",
+       "x": "🍜 Almoço em Yangshuo\n🐟 Beer Fish (peixe na cerveja) — especialidade!\n💰 ~¥60-90/pessoa"
+      },
+      {
+       "t": "13:00",
+       "x": "🔜 Transfer de volta para Guilin\n⏱️ 1h de van compartilhada\n💰 ~¥30-50/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🏙️ Chegada em Guilin\n🛍️ Compras finais: artesanato, jade, pérolas\n⏱️ 2h de tempo livre"
+      },
+      {
+       "t": "17:00",
+       "x": "🌇 Pôr do sol em Guilin\n📸 Últimas fotos de Guilin e arredores\nPasseio tranquilo pelo centro"
+      },
+      {
+       "t": "19:00",
+       "x": "🍜 Jantar em Guilin\n🍲 Última refeição local!\n💰 ~¥60-80/pessoa"
+      },
+      {
+       "t": "21:00",
+       "x": "🚄 TREM NOTURNO PARA XANGAI\n⏱️ ~11h de viagem (overnight)\n🛌 Vagão leito | ¥200-400\nChegada Xangai pela manhã"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir no trem"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [
+     "🍜 Guilin Rice Noodles (桂林米粉) — O prato símbolo | qualquer loja de beco | ¥10-20/tigela",
+     "🐟 Beer Fish (啤酒鱼) — Peixe cozido na cerveja | Mei Mei Café, Yangshuo | ¥80-120/pessoa",
+     "🌿 Rosewood Café — Ótimo café da manhã ocidental | West Street, Yangshuo | ¥40-60",
+     "🏮 Cloud 9 Restaurant — Vista para os picos de karst | Yangshuo | ¥80-120/pessoa"
+    ],
+    "ingressos": [
+     "🚢 Cruzeiro Rio Li — ¥210 (3ª) a ¥490 (1ª classe) | Reservar com antecedência | ⏱️ 4-5h",
+     "🐘 Elephant Trunk Hill — ¥75 | Dica: vista melhor e gratuita da margem oposta!",
+     "🌊 Reed Flute Cave — ¥100 | Tour guiado incluído | ⏱️ 1h | Aberto 8h-18h",
+     "🌙 Moon Hill — ¥15 | ⏱️ 30 min subida | Vista 360° de Yangshuo",
+     "🎭 Impression Sanjie Liu — ¥238-588 | 19:30 e 21:30 | impressionlj.com | Reservar antecipado!",
+     "🛶️ Jangada de Bambu Rio Yulong — ¥120-150/jangada | Barganha fora de temporada",
+     "🌃 Two Rivers & Four Lakes — ¥90-150 | 19:30 ou 21:00 | ⏱️ 1h30"
+    ],
+    "transportes": [
+     "🚌 Guilin → Yangshuo: Bus público ¥20 (1h) | Van ¥30-50/pessoa | Taxi ~¥200",
+     "🚲 Yangshuo de bicicleta: ¥50-80/dia | Ideal para Moon Hill, Rio Yulong e campos de arroz",
+     "🚌 Yangshuo → Guilin: Van compartilhada ¥30-50 | 1h de viagem",
+     "🚄 Guilin → Xangai: Trem noturno K/Z-series ~11h | ¥200-400 leito | Estação Guilin Station"
+    ],
+    "dicas": [
+     "📸 Cruzeiro Rio Li: sente do lado DIREITO do barco descendo para melhores fotos dos picos",
+     "🌅 Trilha Li River em Yangshuo ao amanhecer: névoa nos picos = foto de cartão postal",
+     "🎭 Impression Sanjie Liu: leve casaco — show ao ar livre no rio à noite. Reserve ingresso central",
+     "🚲 Yangshuo: a cidade toda é feita para ciclismo. Alugue bike assim que chegar",
+     "📸 Elephant Trunk Hill: vista mais fotogênica é da margem oposta — não precisa pagar!"
+    ],
+    "alteracoes": []
+   }
+  },
+  {
+   "id": "xangai",
+   "name": "Xangai",
+   "range": "15/out – 18/out",
+   "color": "#2471a3",
+   "lat": 31.2304,
+   "lng": 121.4737,
+   "days": [
+    {
+     "date": "2026-10-15",
+     "title": "The Bund + Lujiazui + Shanghai Tower",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "🚄 Chegada de trem de Guilin\n🏨 Check-in hotel\n☕ Café da manhã na cidade"
+      },
+      {
+       "t": "09:00",
+       "x": "😴 Descanso no hotel\nRecuperar da viagem noturna\n🛌 Banho e relaxar"
+      },
+      {
+       "t": "11:00",
+       "x": "🌊 CAMINHADA PELO THE BUND\nOrla histórica colonial (1,5 km)\nArranha-céus de Pudong de frente!\n⏱️ 1h30 de passeio fotográfico"
+      },
+      {
+       "t": "13:00",
+       "x": "⛴️ BALSA PARA LUJIAZUI\nCruzar o Huangpu River (¥2!)\nVista de volta para o Bund de frente\n⏱️ 15 min de travessia"
+      },
+      {
+       "t": "15:00",
+       "x": "🏢 SHANGHAI TOWER\n3º maior arranha-céu do mundo (632m)\nObservatório no 118º andar!\n🎟️ ¥180 | ⏱️ 30-45 min"
+      },
+      {
+       "t": "17:00",
+       "x": "🌇 BUND AO PÔR DO SOL\n📸 Melhor horário: 17:30-18:30!\nOrla histórica + Pudong ao fundo\n⏱️ 1h de fotos"
+      },
+      {
+       "t": "19:00",
+       "x": "🌃 Jantar perto do Bund\n🦀 Yang's Dumplings (shengjianbao fritos)\n💰 ¥20-30 por porção\nOU: restaurante rooftop com vista"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 Nanjing Road à noite\nIluminada e movimentada\n🏮 Compras de última hora"
+      },
+      {
+       "t": "23:00",
+       "x": "🏨 Retorno ao hotel"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-16",
+     "title": "Zhujiajiao (Vila dos Canais)",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã cedo\n🚇 Metrô → Ônibus para Zhujiajiao\n⏱️ ~1h de viagem"
+      },
+      {
+       "t": "09:00",
+       "x": "⛵ ZHUJIAJIAO — Cidade dos Canais\nVila histórica dos séculos Ming e Qing\n🏮 'Veneza de Xangai' | ⏱️ 4-5h de exploração\n📍 A 1h de metrô de Xangai"
+      },
+      {
+       "t": "11:00",
+       "x": "⛵ Zhujiajiao — canais e pontes\nPasseio de barco nos canais (¥20)\nVisitar: Kezhi Garden, Bei Da Street\nPontes Ming de 400 anos!"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 Almoço em Zhujiajiao\nRestaurante local à beira do canal\nPeixe e caranguejos do lago\n💰 ~¥60-100/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🔜 Retorno para Xangai\n⏱️ ~1h de metrô + ônibus\n🛌 Descanso no hotel"
+      },
+      {
+       "t": "17:00",
+       "x": "🌆 Tarde livre em Xangai\nM50 Art District (arte contemporânea)\nOU: Nanjing Road West (mais local)\nOR: descanso total no hotel!"
+      },
+      {
+       "t": "19:00",
+       "x": "🌃 Jantar em Xangai\nFrench Concession area: Franck\n💰 ~¥150-200/pessoa\nOR: Lost Heaven (culinária Yunnan)"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 Rooftop bar em Xangai\nCHAR Bar (44º andar, The PuLi Hotel)\nVista do Bund iluminado — épico!\n💰 ¥100-200 (drinks)"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Descanso em Xangai"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-17",
+     "title": "Concessão Francesa + Yuyuan",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Café da manhã no hotel\n🎒 Dia de cultura e jardins"
+      },
+      {
+       "t": "09:00",
+       "x": "🇫🇷 ANTIGA CONCESSÃO FRANCESA\nTianzifang — becos com artesanato e cafés\nXintiandi — restaurantes e boutiques\n⏱️ 2h30 de exploração"
+      },
+      {
+       "t": "11:00",
+       "x": "🌸 XINTIANDI\nÁrea reformada; restaurantes e bares\nMuseu do 1º Congresso do PCC\n⏱️ 1h de exploração"
+      },
+      {
+       "t": "13:00",
+       "x": "🌿 JARDIM YUYUAN (豫园)\nJardim clássico Ming — 450 anos!\n🎟️ ¥40 | ⏱️ 1h30 | Arquitetura clássica\n📍 Centro histórico"
+      },
+      {
+       "t": "15:00",
+       "x": "🏯 BAZAAR DO YUYUAN\nMercado tradicional ao redor do Templo\nCompras: jade, lanterna, seda, artesanato\n⏱️ 1h de barganhas"
+      },
+      {
+       "t": "17:00",
+       "x": "🛍️ Nanjing Road — compras noturnas\n⏱️ 1h30\nOU: French Concession para café\n☕ Manner Coffee (café local incrível)"
+      },
+      {
+       "t": "19:00",
+       "x": "🌃 ÚLTIMO JANTAR EM XANGAI\n🥟 Din Tai Fung — Xiaolongbao!\nOR: Lost Heaven (imperdível!)\n💰 ¥100-180 | Reservar!"
+      },
+      {
+       "t": "21:00",
+       "x": "🌃 BUND À NOITE\n📸 Melhor vista dos dois lados!\n🎇 Xangai brilha — foto de encerramento!"
+      },
+      {
+       "t": "23:00",
+       "x": "🏨 Retorno ao hotel\n💤 Última noite em Xangai"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-18",
+     "title": "Nanjing Rd + Museu → Aeroporto",
+     "slots": [
+      {
+       "t": "07:00",
+       "x": "☕ Último café da manhã em Xangai!\n🛍️ Manhã para compras finais"
+      },
+      {
+       "t": "09:00",
+       "x": "🛍️ NANJING ROAD\nRua pedestre mais famosa da Ásia\n5,5 km de lojas, shoppings, marcas\n⏱️ 2h de compras"
+      },
+      {
+       "t": "11:00",
+       "x": "🏛️ MUSEU DE XANGAI\nUm dos melhores museus da China\nBronzes, cerâmica, caligrafia, moedas\n🎟️ GRATUITO | ⏱️ 2h"
+      },
+      {
+       "t": "13:00",
+       "x": "🍜 ÚLTIMO ALMOÇO — Xiaolongbao!\n🥟 Din Tai Fung — imperdível!\nDumplings de sopa cuidadosamente dobrados\n💰 ~¥100-150/pessoa"
+      },
+      {
+       "t": "15:00",
+       "x": "🏨 Retorno ao hotel\nCheck-out + guardar mala\n🔜 Preparar para Maglev"
+      },
+      {
+       "t": "17:00",
+       "x": "🚄 MAGLEV PARA PUDONG (PVG)\n430 km/h em 8 minutos!\nEstação Longyang Rd → Aeroporto\n🎟️ ¥50 | ⏱️ 8 min de emoção pura"
+      },
+      {
+       "t": "19:00",
+       "x": "✈️ CHECK-IN AEROPORTO PVG\n⏱️ Chegar 3h antes do voo\n🛂 Fila de imigração pode ser longa\n🛫 Voo para Doha"
+      },
+      {
+       "t": "21:00",
+       "x": "✈️ A BORDO — Xangai → Doha → SP\n🛫 Viagem de volta\n🎉 FIM da viagem incrível!\nChegada em SP: 10:40 (20/out)"
+      },
+      {
+       "t": "23:00",
+       "x": "💤 Dormir no avião"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [
+     "🥟 Din Tai Fung (鼎泰丰) — Xiaolongbao lendários | Xintiandi branch | ¥100-150/pessoa | Reservar!",
+     "🥟 Yang's Dumplings (小杨生煎) — Shengjianbao fritos; fila sempre! | Fangbang Rd | ¥20-30/porção",
+     "🌿 Lost Heaven (花马天堂) — Culinária Yunnan sofisticada | The Bund | ¥150-250/pessoa | Reservar!",
+     "🦀 Charmant — Dim sum shangainês clássico | French Concession | ¥80-150/pessoa",
+     "🍜 Mercado perto de Yu Garden — Xiaolongbao, Shengjianbao, wonton | ¥10-30",
+     "☕ Manner Coffee — Café local xangainês; muito melhor que Starbucks | ¥20-35 | Em todo lugar"
+    ],
+    "ingressos": [
+     "🏢 Shanghai Tower — ¥180 observatório 118º andar | 10h-22h | 3º mais alto do mundo (632m)",
+     "🌿 Jardim Yuyuan — ¥40 | 9h-17h30 | Comprar ingresso no app ou na entrada",
+     "🏛️ Museu de Xangai — GRATUITO | Fechar às 17h | Reservar slot online",
+     "⛴️ Balsa Bund → Lujiazui — ¥2 apenas! | Atravessa o Huangpu | Melhor custo-benefício da viagem",
+     "⛵ Zhujiajiao — ¥60 (passe unificado) | Barco pelo canal ¥20 | Aberto 8h30-17h",
+     "🎭 Show Acrobático Era Shanghai — ¥150-380 | 19:30 | Acrobacia xangainense clássica"
+    ],
+    "transportes": [
+     "🚇 Metrô Xangai — ¥4-9/viagem | Mais completo da China | Cobre aeroporto, The Bund, Pudong, tudo",
+     "🚄 Maglev Pudong — ¥50 | Longyang Rd → PVG em 8 min | 430 km/h — número aparece no display!",
+     "⛴️ Balsa Bund → Lujiazui — ¥2 | Saída perto do Peace Hotel | Vista espetacular",
+     "🚌 Xangai → Zhujiajiao: Metrô L17 até Zhujiajiao Station + caminhada | ⏱️ 1h | ¥6",
+     "✈️ Aeroporto PVG — Maglev (¥50, 8 min) ou Metrô L2 (~50 min, ¥9) | Chegar 3h antes"
+    ],
+    "dicas": [
+     "📸 Bund: pôr do sol 17:30-18h é o melhor horário. À noite também espetacular — leve tripé!",
+     "🚄 Maglev: não perca! Sente na janela para ver o velocímetro passar de 400 km/h no display",
+     "🥟 Xiaolongbao: morda devagar — tem caldo quente dentro! Coma com vinagre de arroz preto",
+     "⛵ Zhujiajiao: vá num sábado cedo (8h) — evitar ônibus de turismo que chegam às 10h",
+     "🛍️ Compras: Nanjing Road (marcas) | Tianzifang (artesanato) | Dongtai Road (antiguidades)",
+     "💳 Alipay Internacional aceita cartão Visa/Master estrangeiro — alternativa ao WeChat Pay"
+    ],
+    "alteracoes": [
+     "✂️ 'Dia Livre' (Sab 16/out) SUBSTITUÍDO por Zhujiajiao — vila histórica dos canais Ming/Qing a 1h de metrô",
+     "✅ Zhujiajiao é subestimada pelos turistas mas é um dos melhores day-trips possíveis de Xangai",
+     "✏️ Concessão Francesa + Yuyuan realocados para Dom 17/out — dia mais completo e sem correria",
+     "✏️ Nanjing Road + Museu mantidos na manhã de Seg 18/out antes do Maglev e aeroporto",
+     "⚠️ O 'Dia Livre' original foi o dia extra cedido para Xi'an — o roteiro fica sem folga, mas aproveitado ao máximo"
+    ]
+   }
+  }
+ ],
+ "pois": [
+  {
+   "city": "beijing",
+   "name": "Nanluoguxiang (Hutong)",
+   "lat": 39.9375,
+   "lng": 116.4031,
+   "note": "Hutong histórico — lojas e cafés",
+   "date": "2026-10-02"
+  },
+  {
+   "city": "beijing",
+   "name": "Wangfujing Street",
+   "lat": 39.9097,
+   "lng": 116.4109,
+   "note": "Rua de compras + petiscos exóticos",
+   "date": "2026-10-02"
+  },
+  {
+   "city": "beijing",
+   "name": "Lago Houhai",
+   "lat": 39.9408,
+   "lng": 116.3832,
+   "note": "Pôr do sol, bares à beira d’água",
+   "date": "2026-10-02"
+  },
+  {
+   "city": "beijing",
+   "name": "Praça Tiananmen",
+   "lat": 39.9055,
+   "lng": 116.3976,
+   "note": "Grátis — levar passaporte",
+   "date": "2026-10-03"
+  },
+  {
+   "city": "beijing",
+   "name": "Cidade Proibida",
+   "lat": 39.9163,
+   "lng": 116.3972,
+   "note": "¥60 — RESERVAR ONLINE c/ semanas de antecedência!",
+   "date": "2026-10-03"
+  },
+  {
+   "city": "beijing",
+   "name": "Parque Jingshan",
+   "lat": 39.9285,
+   "lng": 116.395,
+   "note": "¥2 — vista da Cidade Proibida ao pôr do sol",
+   "date": "2026-10-03"
+  },
+  {
+   "city": "beijing",
+   "name": "Grande Muralha — Mutianyu",
+   "lat": 40.4319,
+   "lng": 116.5704,
+   "note": "¥45 + teleférico ¥100 + tobogã ¥55 — sair até 7h30!",
+   "date": "2026-10-04"
+  },
+  {
+   "city": "beijing",
+   "name": "Templo do Céu",
+   "lat": 39.8822,
+   "lng": 116.4066,
+   "note": "¥30 + ¥20 — tai chi de manhã",
+   "date": "2026-10-05"
+  },
+  {
+   "city": "beijing",
+   "name": "Estação Beijing West",
+   "lat": 39.8949,
+   "lng": 116.322,
+   "note": "Trem G p/ Xi’an — sair 1h antes",
+   "date": "2026-10-05"
+  },
+  {
+   "city": "xian",
+   "name": "Guerreiros de Terracota",
+   "lat": 34.3853,
+   "lng": 109.2785,
+   "note": "¥120 — chegar 8h30, antes dos ônibus!",
+   "date": "2026-10-06"
+  },
+  {
+   "city": "xian",
+   "name": "Bairro Muçulmano (Huimin Jie)",
+   "lat": 34.2627,
+   "lng": 108.938,
+   "note": "Melhor depois das 18h",
+   "date": "2026-10-06"
+  },
+  {
+   "city": "xian",
+   "name": "Muralha da Cidade (Porta Sul)",
+   "lat": 34.254,
+   "lng": 108.9426,
+   "note": "¥54 + bike ¥45 — 13,7 km de pedalada",
+   "date": "2026-10-07"
+  },
+  {
+   "city": "xian",
+   "name": "Torre do Sino",
+   "lat": 34.261,
+   "lng": 108.9423,
+   "note": "¥35 — centro histórico",
+   "date": "2026-10-07"
+  },
+  {
+   "city": "xian",
+   "name": "Grande Pagode do Ganso Selvagem",
+   "lat": 34.2186,
+   "lng": 108.9642,
+   "note": "¥50+¥30 — show de fontes GRÁTIS 21h",
+   "date": "2026-10-07"
+  },
+  {
+   "city": "xian",
+   "name": "Palácio Huaqing",
+   "lat": 34.3623,
+   "lng": 109.212,
+   "note": "¥150 — harém imperial séc. VIII",
+   "date": "2026-10-08"
+  },
+  {
+   "city": "xian",
+   "name": "Estação Xi’an North",
+   "lat": 34.3776,
+   "lng": 108.9402,
+   "note": "Trem G p/ Chengdu",
+   "date": "2026-10-08"
+  },
+  {
+   "city": "chengdu",
+   "name": "Base de Pesquisa de Pandas",
+   "lat": 30.733,
+   "lng": 104.1465,
+   "note": "¥55 — chegar 8h, pandas dormem depois das 11h!",
+   "date": "2026-10-09"
+  },
+  {
+   "city": "chengdu",
+   "name": "Parque do Povo (Renmin)",
+   "lat": 30.6629,
+   "lng": 104.0556,
+   "note": "Teahouses + mahjong",
+   "date": "2026-10-09"
+  },
+  {
+   "city": "chengdu",
+   "name": "Jinli Ancient Street",
+   "lat": 30.642,
+   "lng": 104.048,
+   "note": "Rua histórica Han — street food",
+   "date": "2026-10-09"
+  },
+  {
+   "city": "chengdu",
+   "name": "Kuanzhai Alley",
+   "lat": 30.6699,
+   "lng": 104.0553,
+   "note": "Bares e snacks à noite",
+   "date": "2026-10-09"
+  },
+  {
+   "city": "chengdu",
+   "name": "Grande Buda de Leshan",
+   "lat": 29.5446,
+   "lng": 103.7731,
+   "note": "¥90 c/ barco — 71 m de altura!",
+   "date": "2026-10-10"
+  },
+  {
+   "city": "guilin",
+   "name": "Elephant Trunk Hill",
+   "lat": 25.27,
+   "lng": 110.295,
+   "note": "¥75 — foto grátis da margem oposta",
+   "date": "2026-10-11"
+  },
+  {
+   "city": "guilin",
+   "name": "Reed Flute Cave",
+   "lat": 25.3081,
+   "lng": 110.2638,
+   "note": "¥100 — gruta iluminada",
+   "date": "2026-10-11"
+  },
+  {
+   "city": "guilin",
+   "name": "Two Rivers & Four Lakes",
+   "lat": 25.279,
+   "lng": 110.295,
+   "note": "¥90-150 — barco noturno",
+   "date": "2026-10-11"
+  },
+  {
+   "city": "guilin",
+   "name": "Píer Cruzeiro Rio Li (Zhujiang)",
+   "lat": 25.089,
+   "lng": 110.428,
+   "note": "¥210-490 — 4-5h até Yangshuo",
+   "date": "2026-10-12"
+  },
+  {
+   "city": "guilin",
+   "name": "Xingping (trecho mais bonito)",
+   "lat": 24.941,
+   "lng": 110.492,
+   "note": "Paisagem da nota de ¥20",
+   "date": "2026-10-12"
+  },
+  {
+   "city": "guilin",
+   "name": "Yangshuo — West Street",
+   "lat": 24.777,
+   "lng": 110.496,
+   "note": "Rua pedestre — base na cidade",
+   "date": "2026-10-12"
+  },
+  {
+   "city": "guilin",
+   "name": "Moon Hill",
+   "lat": 24.732,
+   "lng": 110.463,
+   "note": "¥15 — 30 min de subida",
+   "date": "2026-10-13"
+  },
+  {
+   "city": "guilin",
+   "name": "Rio Yulong (jangada de bambu)",
+   "lat": 24.756,
+   "lng": 110.448,
+   "note": "¥120-150/jangada (2 pessoas)",
+   "date": "2026-10-13"
+  },
+  {
+   "city": "guilin",
+   "name": "Show Impression Sanjie Liu",
+   "lat": 24.774,
+   "lng": 110.501,
+   "note": "¥238-588 — direção Zhang Yimou — reservar!",
+   "date": "2026-10-13"
+  },
+  {
+   "city": "xangai",
+   "name": "The Bund",
+   "lat": 31.24,
+   "lng": 121.4905,
+   "note": "Pôr do sol 17h30-18h30",
+   "date": "2026-10-15"
+  },
+  {
+   "city": "xangai",
+   "name": "Shanghai Tower (Lujiazui)",
+   "lat": 31.2336,
+   "lng": 121.5055,
+   "note": "¥180 — observatório 118º andar",
+   "date": "2026-10-15"
+  },
+  {
+   "city": "xangai",
+   "name": "Zhujiajiao (Vila dos Canais)",
+   "lat": 31.1109,
+   "lng": 121.051,
+   "note": "¥60 — ir cedo (8h)! Metrô L17",
+   "date": "2026-10-16"
+  },
+  {
+   "city": "xangai",
+   "name": "Tianzifang",
+   "lat": 31.211,
+   "lng": 121.466,
+   "note": "Becos de artesanato — Concessão Francesa",
+   "date": "2026-10-17"
+  },
+  {
+   "city": "xangai",
+   "name": "Xintiandi",
+   "lat": 31.219,
+   "lng": 121.475,
+   "note": "Restaurantes e boutiques",
+   "date": "2026-10-17"
+  },
+  {
+   "city": "xangai",
+   "name": "Jardim Yuyuan",
+   "lat": 31.227,
+   "lng": 121.492,
+   "note": "¥40 — jardim Ming de 450 anos",
+   "date": "2026-10-17"
+  },
+  {
+   "city": "xangai",
+   "name": "Nanjing Road",
+   "lat": 31.235,
+   "lng": 121.476,
+   "note": "5,5 km de compras",
+   "date": "2026-10-18"
+  },
+  {
+   "city": "xangai",
+   "name": "Museu de Xangai",
+   "lat": 31.228,
+   "lng": 121.471,
+   "note": "GRÁTIS — reservar slot online",
+   "date": "2026-10-18"
+  },
+  {
+   "city": "xangai",
+   "name": "Maglev — Estação Longyang Rd",
+   "lat": 31.203,
+   "lng": 121.557,
+   "note": "¥50 — 430 km/h em 8 min!",
+   "date": "2026-10-18"
+  },
+  {
+   "city": "xangai",
+   "name": "Aeroporto Pudong (PVG)",
+   "lat": 31.1443,
+   "lng": 121.8083,
+   "note": "Chegar 3h antes",
+   "date": "2026-10-18"
+  }
+ ],
+ "route": [
+  [
+   39.9042,
+   116.4074
+  ],
+  [
+   34.3416,
+   108.9398
+  ],
+  [
+   30.5728,
+   104.0668
+  ],
+  [
+   29.5446,
+   103.7731
+  ],
+  [
+   30.5728,
+   104.0668
+  ],
+  [
+   25.2742,
+   110.29
+  ],
+  [
+   24.7781,
+   110.4969
+  ],
+  [
+   31.2304,
+   121.4737
+  ]
+ ],
+ "flights": [
+  {
+   "date": "2026-09-30",
+   "from": "São Paulo (GRU)",
+   "to": "Doha (DOH)",
+   "airline": "Qatar Airways",
+   "num": "",
+   "dep": "",
+   "arr": "01/out de manhã",
+   "locator": "",
+   "seats": "",
+   "notes": "Saída na noite de 30/set"
+  },
+  {
+   "date": "2026-10-01",
+   "from": "Doha (DOH)",
+   "to": "Beijing (PEK)",
+   "airline": "Qatar Airways",
+   "num": "",
+   "dep": "",
+   "arr": "01/out à noite",
+   "locator": "",
+   "seats": "",
+   "notes": "Conexão em Doha"
+  },
+  {
+   "date": "2026-10-18",
+   "from": "Xangai (PVG)",
+   "to": "Doha (DOH)",
+   "airline": "Qatar Airways",
+   "num": "",
+   "dep": "Noite (chegar 3h antes)",
+   "arr": "19/out 05:00",
+   "locator": "",
+   "seats": "",
+   "notes": "Ir de Maglev até PVG (¥50, 8 min). Dia 19 livre em Doha — stopover."
+  },
+  {
+   "date": "2026-10-20",
+   "from": "Doha (DOH)",
+   "to": "São Paulo (GRU)",
+   "airline": "Qatar Airways",
+   "num": "",
+   "dep": "01:40",
+   "arr": "10:40 (mesmo dia)",
+   "locator": "",
+   "seats": "",
+   "notes": "Chegada em SP dia 20/out"
+  }
+ ],
+ "hotels": [
+  {
+   "city": "Beijing",
+   "nights": "4 noites",
+   "name": "",
+   "checkin": "01/out",
+   "checkout": "05/out",
+   "address": "",
+   "addressZh": "",
+   "reservation": "",
+   "price": "",
+   "notes": "Perto de metrô / Dongcheng facilita tudo"
+  },
+  {
+   "city": "Xi'an",
+   "nights": "3 noites",
+   "name": "",
+   "checkin": "05/out",
+   "checkout": "08/out",
+   "address": "",
+   "addressZh": "",
+   "reservation": "",
+   "price": "",
+   "notes": "Chegada ~22h30 no dia 05 — avisar late check-in"
+  },
+  {
+   "city": "Chengdu",
+   "nights": "2 noites",
+   "name": "",
+   "checkin": "08/out",
+   "checkout": "10/out",
+   "address": "",
+   "addressZh": "",
+   "reservation": "",
+   "price": "",
+   "notes": "Dia 10: check-out + guardar mala (trem noturno)"
+  },
+  {
+   "city": "Guilin",
+   "nights": "1 noite",
+   "name": "",
+   "checkin": "11/out",
+   "checkout": "12/out",
+   "address": "",
+   "addressZh": "",
+   "reservation": "",
+   "price": "",
+   "notes": "Chegada de trem noturno pela manhã — early check-in?"
+  },
+  {
+   "city": "Yangshuo",
+   "nights": "2 noites",
+   "name": "",
+   "checkin": "12/out",
+   "checkout": "14/out",
+   "address": "",
+   "addressZh": "",
+   "reservation": "",
+   "price": "",
+   "notes": "Levar só mochila — mala pode ficar em Guilin"
+  },
+  {
+   "city": "Xangai",
+   "nights": "3 noites",
+   "name": "",
+   "checkin": "15/out",
+   "checkout": "18/out",
+   "address": "",
+   "addressZh": "",
+   "reservation": "",
+   "price": "",
+   "notes": "Chegada de trem noturno pela manhã — early check-in?"
+  }
+ ],
+ "trains": [
+  {
+   "date": "2026-10-05",
+   "from": "Beijing West (北京西)",
+   "to": "Xi'an North (西安北)",
+   "kind": "Alta velocidade (G)",
+   "dur": "4h30",
+   "price": "~¥553",
+   "num": "",
+   "seat": "",
+   "status": "⏳ comprar",
+   "notes": "Comprar no 12306.cn ou Trip.com. Chegada ~22h30.",
+   "period": "tarde"
+  },
+  {
+   "date": "2026-10-08",
+   "from": "Xi'an North (西安北)",
+   "to": "Chengdu East (成都东)",
+   "kind": "Alta velocidade (G)",
+   "dur": "~3h",
+   "price": "¥230-350",
+   "num": "",
+   "seat": "",
+   "status": "⏳ comprar",
+   "notes": "Chegada em Chengdu ~19-20h.",
+   "period": "fim de tarde"
+  },
+  {
+   "date": "2026-10-10",
+   "from": "Chengdu East (成都东)",
+   "to": "Leshan (乐山)",
+   "kind": "Intercidades (ida e volta)",
+   "dur": "1h30 cada",
+   "price": "¥25-35/trecho",
+   "num": "",
+   "seat": "",
+   "status": "⏳ comprar",
+   "notes": "Day trip do Grande Buda. Volta ~17h30.",
+   "period": "manhã"
+  },
+  {
+   "date": "2026-10-10",
+   "from": "Chengdu",
+   "to": "Guilin (桂林)",
+   "kind": "NOTURNO — vagão leito",
+   "dur": "7-10h",
+   "price": "¥200-350 (leito)",
+   "num": "",
+   "seat": "",
+   "status": "⏳ comprar",
+   "notes": "Levar lanche, fone e travesseiro inflável. Chegada manhã do dia 11.",
+   "period": "noite"
+  },
+  {
+   "date": "2026-10-14",
+   "from": "Guilin (桂林)",
+   "to": "Xangai (上海)",
+   "kind": "NOTURNO — vagão leito",
+   "dur": "~11h",
+   "price": "¥200-400 (leito)",
+   "num": "",
+   "seat": "",
+   "status": "⏳ comprar",
+   "notes": "Chegada manhã do dia 15.",
+   "period": "noite"
+  },
+  {
+   "date": "2026-10-18",
+   "from": "Longyang Rd",
+   "to": "Aeroporto PVG",
+   "kind": "MAGLEV 430 km/h",
+   "dur": "8 min",
+   "price": "¥50",
+   "num": "",
+   "seat": "",
+   "status": "⏳ comprar",
+   "notes": "Sentar na janela pra ver o velocímetro!",
+   "period": "tarde"
+  }
+ ],
+ "attention": [
+  {
+   "cat": "🚨 Decisões pendentes",
+   "items": [
+    {
+     "text": "GOLDEN WEEK (01–08/out): decidir se inverte o roteiro e vai pra Xangai logo após chegar, evitando as multidões de Pequim. Beijing 02–05/out = pico absoluto de turismo doméstico.",
+     "done": false
+    },
+    {
+     "text": "Definir hotéis de todas as cidades (aba Hotéis)",
+     "done": false
+    },
+    {
+     "text": "Definir números de voo / horários exatos (aba Voos)",
+     "done": false
+    }
+   ]
+  },
+  {
+   "cat": "📋 Documentos & burocracia",
+   "items": [
+    {
+     "text": "Verificar política de visto China × Brasil — em 2025 entrou isenção de 30 dias p/ brasileiros; CONFIRMAR se ainda vale para out/2026",
+     "done": false
+    },
+    {
+     "text": "Passaporte válido por 6+ meses",
+     "done": false
+    },
+    {
+     "text": "Cópias do passaporte (física + foto no celular)",
+     "done": false
+    },
+    {
+     "text": "Seguro viagem com cobertura na China",
+     "done": false
+    },
+    {
+     "text": "Cartão de vacina / verificar exigências",
+     "done": false
+    }
+   ]
+  },
+  {
+   "cat": "📱 Apps & conexão (fazer ANTES de embarcar)",
+   "items": [
+    {
+     "text": "Contratar VPN ANTES de sair do Brasil (Google, WhatsApp, Instagram são bloqueados)",
+     "done": false
+    },
+    {
+     "text": "eSIM/chip de dados internacional (alguns, como Holafly, já saem com acesso liberado sem VPN)",
+     "done": false
+    },
+    {
+     "text": "Configurar Alipay internacional com cartão Visa/Master (principal meio de pagamento!)",
+     "done": false
+    },
+    {
+     "text": "Configurar WeChat Pay (backup do Alipay)",
+     "done": false
+    },
+    {
+     "text": "Instalar e configurar Didi (Uber chinês) — aceita cartão internacional",
+     "done": false
+    },
+    {
+     "text": "Baixar mapas offline: Maps.me / Organic Maps + Baidu Maps",
+     "done": false
+    },
+    {
+     "text": "Instalar Pleco (tradutor offline de chinês)",
+     "done": false
+    },
+    {
+     "text": "Baixar este arquivo no celular dos dois 😄",
+     "done": false
+    }
+   ]
+  },
+  {
+   "cat": "🎟️ Reservas antecipadas (esgotam!)",
+   "items": [
+    {
+     "text": "Cidade Proibida — reservar em pm.dpm.org.cn — ESGOTA SEMANAS ANTES (Golden Week: pior ainda)",
+     "done": false
+    },
+    {
+     "text": "Trens: venda abre ~15 dias antes no 12306/Trip.com — comprar NO PRIMEIRO DIA (Golden Week esgota em minutos)",
+     "done": false
+    },
+    {
+     "text": "Show Impression Sanjie Liu (Yangshuo) — impressionlj.com",
+     "done": false
+    },
+    {
+     "text": "Ópera Sichuan / Bian Lian (Chengdu) — Trip.com ou pelo hotel",
+     "done": false
+    },
+    {
+     "text": "Museu de Xangai — slot gratuito online",
+     "done": false
+    },
+    {
+     "text": "Cruzeiro Rio Li — reservar antecipado",
+     "done": false
+    },
+    {
+     "text": "Restaurantes: Da Dong ou Siji Minfu (pato), Din Tai Fung, Lost Heaven",
+     "done": false
+    }
+   ]
+  },
+  {
+   "cat": "🎒 Mala & compras antes da viagem",
+   "items": [
+    {
+     "text": "Adaptador de tomada (China: tipos A/C/I, 220 V)",
+     "done": false
+    },
+    {
+     "text": "Powerbank (dias de 12h+ na rua)",
+     "done": false
+    },
+    {
+     "text": "Calçado MUITO confortável (Cidade Proibida = 720.000 m² de pedra)",
+     "done": false
+    },
+    {
+     "text": "Jaqueta leve (outubro: 10–22 °C)",
+     "done": false
+    },
+    {
+     "text": "Remédios: estômago (comida picante!), dor, enjoo p/ trem noturno",
+     "done": false
+    },
+    {
+     "text": "Travesseiro inflável + tampão de ouvido (2 trens noturnos)",
+     "done": false
+    },
+    {
+     "text": "Papel higiênico/lenço umedecido (banheiros públicos não têm)",
+     "done": false
+    },
+    {
+     "text": "Algum dinheiro em espécie (CNY) como backup",
+     "done": false
+    },
+    {
+     "text": "Tripé pequeno p/ fotos noturnas no Bund",
+     "done": false
+    }
+   ]
+  },
+  {
+   "cat": "🇨🇳 Lá na China",
+   "items": [
+    {
+     "text": "Levar passaporte SEMPRE — é exigido em atrações e nos trens (é o seu bilhete)",
+     "done": false
+    },
+    {
+     "text": "Pandas: chegar 8h (dormem depois das 11h)",
+     "done": false
+    },
+    {
+     "text": "Mutianyu: sair do hotel até 7h30",
+     "done": false
+    },
+    {
+     "text": "Terracota: chegar 8h30 (ônibus de turismo chegam 10h)",
+     "done": false
+    },
+    {
+     "text": "Zhujiajiao: ir cedo (8h)",
+     "done": false
+    },
+    {
+     "text": "Comida Sichuan: pedir \"wēi là\" (pouco picante) ou \"bú yào là\" (sem pimenta)",
+     "done": false
+    },
+    {
+     "text": "Xiaolongbao: morder devagar — caldo quente dentro!",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "cat": "👋 Básico",
+   "items": [
+    {
+     "pt": "Olá",
+     "zh": "你好",
+     "py": "nǐ hǎo"
+    },
+    {
+     "pt": "Obrigado(a)",
+     "zh": "谢谢",
+     "py": "xièxie"
+    },
+    {
+     "pt": "Com licença / desculpa",
+     "zh": "不好意思",
+     "py": "bù hǎoyìsi"
+    },
+    {
+     "pt": "Não entendo",
+     "zh": "我听不懂",
+     "py": "wǒ tīng bù dǒng"
+    },
+    {
+     "pt": "Você fala inglês?",
+     "zh": "你会说英语吗？",
+     "py": "nǐ huì shuō yīngyǔ ma?"
+    },
+    {
+     "pt": "Onde é o banheiro?",
+     "zh": "洗手间在哪里？",
+     "py": "xǐshǒujiān zài nǎlǐ?"
+    },
+    {
+     "pt": "Quanto custa?",
+     "zh": "多少钱？",
+     "py": "duōshǎo qián?"
+    },
+    {
+     "pt": "Sim / pode",
+     "zh": "可以",
+     "py": "kěyǐ"
+    },
+    {
+     "pt": "Não / não pode",
+     "zh": "不可以",
+     "py": "bù kěyǐ"
+    },
+    {
+     "pt": "Ajuda, por favor",
+     "zh": "请帮我",
+     "py": "qǐng bāng wǒ"
+    }
+   ]
+  },
+  {
+   "cat": "🌶️ Pimenta (importante!)",
+   "items": [
+    {
+     "pt": "SEM pimenta",
+     "zh": "不要辣",
+     "py": "bú yào là"
+    },
+    {
+     "pt": "Pouco picante",
+     "zh": "微辣",
+     "py": "wēi là"
+    },
+    {
+     "pt": "Picante médio",
+     "zh": "中辣",
+     "py": "zhōng là"
+    },
+    {
+     "pt": "Não muito picante, por favor",
+     "zh": "请不要太辣",
+     "py": "qǐng bú yào tài là"
+    }
+   ]
+  },
+  {
+   "cat": "🍜 Comida & bebida",
+   "items": [
+    {
+     "pt": "Cardápio, por favor",
+     "zh": "请给我菜单",
+     "py": "qǐng gěi wǒ càidān"
+    },
+    {
+     "pt": "A conta!",
+     "zh": "买单",
+     "py": "mǎidān"
+    },
+    {
+     "pt": "Muito gostoso!",
+     "zh": "很好吃！",
+     "py": "hěn hǎochī!"
+    },
+    {
+     "pt": "Água",
+     "zh": "水",
+     "py": "shuǐ"
+    },
+    {
+     "pt": "Água gelada",
+     "zh": "冰水",
+     "py": "bīng shuǐ"
+    },
+    {
+     "pt": "Cerveja",
+     "zh": "啤酒",
+     "py": "píjiǔ"
+    },
+    {
+     "pt": "Chá",
+     "zh": "茶",
+     "py": "chá"
+    },
+    {
+     "pt": "Arroz",
+     "zh": "米饭",
+     "py": "mǐfàn"
+    },
+    {
+     "pt": "Macarrão",
+     "zh": "面条",
+     "py": "miàntiáo"
+    },
+    {
+     "pt": "Frango",
+     "zh": "鸡肉",
+     "py": "jīròu"
+    },
+    {
+     "pt": "Carne de boi",
+     "zh": "牛肉",
+     "py": "niúròu"
+    },
+    {
+     "pt": "Porco",
+     "zh": "猪肉",
+     "py": "zhūròu"
+    },
+    {
+     "pt": "Cordeiro",
+     "zh": "羊肉",
+     "py": "yángròu"
+    },
+    {
+     "pt": "Peixe",
+     "zh": "鱼",
+     "py": "yú"
+    },
+    {
+     "pt": "Pato de Pequim",
+     "zh": "北京烤鸭",
+     "py": "Běijīng kǎoyā"
+    },
+    {
+     "pt": "Xiaolongbao (dumpling de sopa)",
+     "zh": "小笼包",
+     "py": "xiǎolóngbāo"
+    },
+    {
+     "pt": "Hot pot",
+     "zh": "火锅",
+     "py": "huǒguō"
+    },
+    {
+     "pt": "Não como carne",
+     "zh": "我不吃肉",
+     "py": "wǒ bù chī ròu"
+    },
+    {
+     "pt": "Sem coentro",
+     "zh": "不要香菜",
+     "py": "bú yào xiāngcài"
+    },
+    {
+     "pt": "Tenho alergia a amendoim",
+     "zh": "我对花生过敏",
+     "py": "wǒ duì huāshēng guòmǐn"
+    }
+   ]
+  },
+  {
+   "cat": "💳 Pagamento",
+   "items": [
+    {
+     "pt": "Posso pagar com Alipay?",
+     "zh": "可以用支付宝吗？",
+     "py": "kěyǐ yòng Zhīfùbǎo ma?"
+    },
+    {
+     "pt": "Posso pagar com WeChat?",
+     "zh": "可以用微信吗？",
+     "py": "kěyǐ yòng Wēixìn ma?"
+    },
+    {
+     "pt": "Aceita dinheiro?",
+     "zh": "收现金吗？",
+     "py": "shōu xiànjīn ma?"
+    },
+    {
+     "pt": "Aceita cartão?",
+     "zh": "可以刷卡吗？",
+     "py": "kěyǐ shuākǎ ma?"
+    },
+    {
+     "pt": "Muito caro!",
+     "zh": "太贵了！",
+     "py": "tài guì le!"
+    },
+    {
+     "pt": "Pode fazer mais barato?",
+     "zh": "能便宜一点吗？",
+     "py": "néng piányí yìdiǎn ma?"
+    }
+   ]
+  },
+  {
+   "cat": "🚕 Transporte",
+   "items": [
+    {
+     "pt": "Me leve a este endereço (mostrar)",
+     "zh": "请带我去这个地址",
+     "py": "qǐng dài wǒ qù zhège dìzhǐ"
+    },
+    {
+     "pt": "Estação de trem",
+     "zh": "火车站",
+     "py": "huǒchēzhàn"
+    },
+    {
+     "pt": "Aeroporto",
+     "zh": "机场",
+     "py": "jīchǎng"
+    },
+    {
+     "pt": "Metrô",
+     "zh": "地铁",
+     "py": "dìtiě"
+    },
+    {
+     "pt": "Pare aqui, por favor",
+     "zh": "请停这里",
+     "py": "qǐng tíng zhèlǐ"
+    },
+    {
+     "pt": "Quanto tempo demora?",
+     "zh": "要多久？",
+     "py": "yào duōjiǔ?"
+    }
+   ]
+  },
+  {
+   "cat": "🏨 Hotel",
+   "items": [
+    {
+     "pt": "Tenho uma reserva",
+     "zh": "我有预订",
+     "py": "wǒ yǒu yùdìng"
+    },
+    {
+     "pt": "Passaporte",
+     "zh": "护照",
+     "py": "hùzhào"
+    },
+    {
+     "pt": "Qual a senha do wi-fi?",
+     "zh": "无线网密码是多少？",
+     "py": "wúxiànwǎng mìmǎ shì duōshǎo?"
+    },
+    {
+     "pt": "Posso deixar a bagagem?",
+     "zh": "可以寄存行李吗？",
+     "py": "kěyǐ jìcún xíngli ma?"
+    }
+   ]
+  },
+  {
+   "cat": "🆘 Emergência",
+   "items": [
+    {
+     "pt": "Socorro!",
+     "zh": "救命！",
+     "py": "jiùmìng!"
+    },
+    {
+     "pt": "Chame um médico",
+     "zh": "请叫医生",
+     "py": "qǐng jiào yīshēng"
+    },
+    {
+     "pt": "Hospital",
+     "zh": "医院",
+     "py": "yīyuàn"
+    },
+    {
+     "pt": "Farmácia",
+     "zh": "药店",
+     "py": "yàodiàn"
+    },
+    {
+     "pt": "Polícia (☎ 110)",
+     "zh": "警察",
+     "py": "jǐngchá"
+    },
+    {
+     "pt": "Perdi meu passaporte",
+     "zh": "我的护照丢了",
+     "py": "wǒ de hùzhào diū le"
+    },
+    {
+     "pt": "Estou perdido(a)",
+     "zh": "我迷路了",
+     "py": "wǒ mílù le"
+    }
+   ]
+  }
+ ]
+}
