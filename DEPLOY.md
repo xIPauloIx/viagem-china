@@ -1,5 +1,11 @@
 # Deploy — Viagem China 2026
 
+> **✅ NO AR:** https://viagem-china-puce.vercel.app
+> GitHub: https://github.com/xIPauloIx/viagem-china · Projeto Vercel: pauloght4-s-projects/viagem-china
+> Qualquer `git push` na main republica sozinho (~1-2 min).
+> ⚠️ Ao mexer em env vars pelo CLI: usar bash `printf '%s' "$valor" | vercel env add ...`
+> (pipe do PowerShell anexa `\r` e corrompe o valor).
+
 App Next.js com login básico (editor/visualização), dados no Postgres Neon
 (mesma instância do bolão, tabela separada `china_trip`) e exportação offline.
 
