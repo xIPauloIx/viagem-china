@@ -7,6 +7,16 @@ export interface CitySections {
 export interface City {
   id: string; name: string; range: string; color: string;
   lat: number; lng: number; days: Day[]; sections: CitySections;
+  /** trechos de voo ida/volta — fora do mapa e do roteiro de estadias */
+  transit?: boolean;
+}
+export interface Leg {
+  from: [number, number]; to: [number, number];
+  icon: string; label: string; minor?: boolean;
+}
+export interface DocFile {
+  id: number; name: string; category: string; mime: string;
+  size: number; created_at: string;
 }
 export interface OverviewDay { date: string; city: string; m: string; t: string; n: string }
 export interface Poi { city: string; name: string; lat: number; lng: number; note?: string; date?: string | null }
@@ -30,7 +40,7 @@ export interface PhraseGroup { cat: string; items: Phrase[] }
 export interface TripData {
   version: number; savedAt: string;
   overview: OverviewDay[]; notes: string[]; cities: City[];
-  pois: Poi[]; route: [number, number][];
+  pois: Poi[]; route: [number, number][]; legs?: Leg[];
   flights: Flight[]; hotels: Hotel[]; trains: Train[];
   attention: AttGroup[]; phrases: PhraseGroup[];
 }

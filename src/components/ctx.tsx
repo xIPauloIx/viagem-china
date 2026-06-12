@@ -2,7 +2,7 @@
 import { createContext, useContext } from 'react';
 import type { TripData, Role } from '@/lib/types';
 
-export type TabId = 'roteiro' | 'mapa' | 'calendario' | 'diaadia' | 'voos' | 'hoteis' | 'trens' | 'atencao' | 'frases';
+export type TabId = 'roteiro' | 'mapa' | 'calendario' | 'diaadia' | 'voos' | 'hoteis' | 'trens' | 'docs' | 'atencao' | 'frases';
 
 export interface TripCtx {
   data: TripData;

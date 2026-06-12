@@ -1,6 +1,6 @@
 {
- "version": 1,
- "savedAt": "2026-06-11T21:55:14.500Z",
+ "version": 2,
+ "savedAt": "2026-06-12T20:38:55.763Z",
  "overview": [
   {
    "date": "2026-09-30",
@@ -159,6 +159,73 @@
   "✏️ ALTERAÇÕES vs. ORIGINAL: Xi'an +1 dia (06-08/out) | Chengdu condensado (09-10/out, Qingcheng removido) | Sab 16/out: Zhujiajiao substituiu Dia Livre"
  ],
  "cities": [
+  {
+   "id": "ida",
+   "name": "✈️ Ida",
+   "range": "30/set – 01/out",
+   "color": "#7d3c98",
+   "lat": -23.4356,
+   "lng": -46.4731,
+   "transit": true,
+   "days": [
+    {
+     "date": "2026-09-30",
+     "title": "São Paulo → Doha",
+     "slots": [
+      {
+       "t": "10:00",
+       "x": "🧳 Últimos preparos\n📄 Conferir: passaporte, seguro, reservas\n🔌 Powerbank e eletrônicos carregados"
+      },
+      {
+       "t": "14:00",
+       "x": "✅ Revisar checklist da aba Atenção\n💊 Remédios na mala de mão\n💴 Yuans em espécie separados"
+      },
+      {
+       "t": "17:00",
+       "x": "🚗 Sair para o aeroporto GRU\n⏰ Chegar 3h antes do voo\n(nº do voo e horário: aba Voos)"
+      },
+      {
+       "t": "noite",
+       "x": "🛫 VOO QATAR — GRU → DOHA\n⏱️ ~14h30 de voo\n😴 Tentar dormir no avião\n💺 Marcar assentos online antes"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "title": "Doha → Beijing",
+     "slots": [
+      {
+       "t": "manhã",
+       "x": "🛬 Chegada em DOHA (DOH)\n🔁 Conexão — seguir placas \"Transfer\"\n☕ Café / esticar as pernas"
+      },
+      {
+       "t": "tarde",
+       "x": "🛫 VOO DOHA → BEIJING (PEK)\n⏱️ ~8h30 de voo\n📝 Preencher ficha de imigração no voo"
+      },
+      {
+       "t": "noite",
+       "x": "🛬 Chegada em BEIJING à noite\n🛂 Imigração (fila pode ser longa) + bagagem\n📶 Ativar eSIM + VPN ainda no aeroporto"
+      },
+      {
+       "t": "22:00",
+       "x": "🚄 Airport Express (¥25) ou Didi (~¥130)\n🏨 Check-in no hotel\n💤 Dormir — amanhã começa a aventura!"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [],
+    "ingressos": [],
+    "transportes": [],
+    "dicas": [
+     "💺 Qatar: check-in online abre 48h antes — marcar assentos",
+     "🧦 Meia de compressão ajuda no voo longo",
+     "⏰ Fuso: China = +11h vs Brasília — já ajustar o relógio na ida",
+     "💧 Hidratar muito; evitar álcool nos voos"
+    ],
+    "alteracoes": []
+   }
+  },
   {
    "id": "beijing",
    "name": "Beijing",
@@ -1097,6 +1164,63 @@
      "⚠️ O 'Dia Livre' original foi o dia extra cedido para Xi'an — o roteiro fica sem folga, mas aproveitado ao máximo"
     ]
    }
+  },
+  {
+   "id": "volta",
+   "name": "✈️ Volta",
+   "range": "19/out – 20/out",
+   "color": "#7d3c98",
+   "lat": 25.2854,
+   "lng": 51.531,
+   "transit": true,
+   "days": [
+    {
+     "date": "2026-10-19",
+     "title": "Dia em Doha (stopover)",
+     "slots": [
+      {
+       "t": "05:00",
+       "x": "🛬 Chegada em DOHA (05:00)\n🧳 Guardar bagagem / day use\n☕ Café da manhã"
+      },
+      {
+       "t": "manhã",
+       "x": "🕌 Souq Waqif — mercado tradicional\n🏛️ Museu de Arte Islâmica (grátis, fecha 2ª? conferir)\n📸 Corniche — orla de Doha"
+      },
+      {
+       "t": "tarde",
+       "x": "🏙️ Almoço no Souq\n😴 Descanso (calor forte à tarde)\nOU: tour de city stopover da Qatar"
+      },
+      {
+       "t": "noite",
+       "x": "🌆 Pôr do sol na Corniche\n🍽️ Jantar\n🛫 Voltar ao aeroporto (até 22:30)"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-20",
+     "title": "Doha → São Paulo 🎉",
+     "slots": [
+      {
+       "t": "01:40",
+       "x": "🛫 VOO QATAR — DOHA → GRU\n⏱️ ~14h40 de voo\n😴 Dormir bastante"
+      },
+      {
+       "t": "10:40",
+       "x": "🛬 Chegada em SÃO PAULO — 10:40\n🏠 FIM DA VIAGEM — bem-vindos de volta! 🎉\n📸 (hora de fazer o álbum)"
+      }
+     ]
+    }
+   ],
+   "sections": {
+    "restaurantes": [],
+    "ingressos": [],
+    "transportes": [],
+    "dicas": [
+     "🇶🇦 Brasileiros: visto de trânsito não é necessário p/ sair do aeroporto em Doha (free transit) — conferir regras atuais",
+     "🧳 Qatar tem guarda-volumes no aeroporto p/ o stopover"
+    ],
+    "alteracoes": []
+   }
   }
  ],
  "pois": [
@@ -1454,6 +1578,95 @@
    31.2304,
    121.4737
   ]
+ ],
+ "legs": [
+  {
+   "from": [
+    39.9042,
+    116.4074
+   ],
+   "to": [
+    34.3416,
+    108.9398
+   ],
+   "icon": "🚄",
+   "label": "4h30"
+  },
+  {
+   "from": [
+    34.3416,
+    108.9398
+   ],
+   "to": [
+    30.5728,
+    104.0668
+   ],
+   "icon": "🚄",
+   "label": "~3h"
+  },
+  {
+   "from": [
+    30.5728,
+    104.0668
+   ],
+   "to": [
+    29.5446,
+    103.7731
+   ],
+   "icon": "🚄",
+   "label": "1h30 bate-volta",
+   "minor": true
+  },
+  {
+   "from": [
+    30.5728,
+    104.0668
+   ],
+   "to": [
+    25.2742,
+    110.29
+   ],
+   "icon": "🚄",
+   "label": "noturno 7-10h"
+  },
+  {
+   "from": [
+    25.2742,
+    110.29
+   ],
+   "to": [
+    24.7781,
+    110.4969
+   ],
+   "icon": "🚢",
+   "label": "cruzeiro Rio Li",
+   "minor": true
+  },
+  {
+   "from": [
+    25.2742,
+    110.29
+   ],
+   "to": [
+    31.2304,
+    121.4737
+   ],
+   "icon": "🚄",
+   "label": "noturno ~11h"
+  },
+  {
+   "from": [
+    31.2304,
+    121.4737
+   ],
+   "to": [
+    31.1443,
+    121.8083
+   ],
+   "icon": "🚝",
+   "label": "Maglev 8 min",
+   "minor": true
+  }
  ],
  "flights": [
   {
@@ -2025,11 +2238,6 @@
      "pt": "Sem coentro",
      "zh": "不要香菜",
      "py": "bú yào xiāngcài"
-    },
-    {
-     "pt": "Tenho alergia a amendoim",
-     "zh": "我对花生过敏",
-     "py": "wǒ duì huāshēng guòmǐn"
     }
    ]
   },

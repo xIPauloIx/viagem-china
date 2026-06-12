@@ -896,11 +896,11 @@ function rMapa(m){
   m.innerHTML = `
     <div class="chips">
       <button class="chip ${mapFilter==='all'?'on':''}" onclick="setMapFilter('all')">Tudo</button>
-      ${cities.map(c=>`<button class="chip ${mapFilter===c.id?'on':''}" onclick="setMapFilter('${c.id}')">${c.name}</button>`).join('')}
+      ${cities.filter(c=>!c.transit).map(c=>`<button class="chip ${mapFilter===c.id?'on':''}" onclick="setMapFilter('${c.id}')">${c.name}</button>`).join('')}
     </div>
     <div id="map"></div>
     <div class="mapnote">📶 O mapa precisa de internet para carregar as imagens. A lista abaixo funciona sempre offline.</div>
-    <div class="legend">${cities.map(c=>`<span><span class="dot" style="background:${c.color}"></span>${c.name}</span>`).join('')}</div>
+    <div class="legend">${cities.filter(c=>!c.transit).map(c=>`<span><span class="dot" style="background:${c.color}"></span>${c.name}</span>`).join('')}</div>
     <div class="card" style="margin-top:10px"><h3>📍 Locais do roteiro</h3><div id="poilist"></div></div>`;
   renderPoiList();
   initMap();
@@ -933,8 +933,18 @@ function initMap(){
      .bindPopup(`<b>${esc(p.name)}</b><br>${p.date?fmtD(p.date)+'<br>':''}<span style="color:#666">${esc(p.note||'')}</span>`);
   });
   if(mapFilter==='all'){
-    L.polyline(DATA.route,{color:'#b3242a',weight:2.5,dashArray:'6 7',opacity:.7}).addTo(mapObj);
-    DATA.cities.forEach(c=>{
+    (DATA.legs||[]).forEach(lg=>{
+      L.polyline([lg.from,lg.to],{color:'#b3242a',weight:lg.minor?1.5:2.5,dashArray:'6 7',opacity:lg.minor?.45:.75}).addTo(mapObj);
+      const a=lg.from,b=lg.to,mid=[(a[0]+b[0])/2,(a[1]+b[1])/2];
+      const x=(b[1]-a[1])*Math.cos((a[0]+b[0])/2*Math.PI/180), y=b[0]-a[0];
+      const ang=Math.atan2(x,y)*180/Math.PI-90;
+      L.marker(mid,{icon:L.divIcon({className:'',iconSize:[18,18],iconAnchor:[9,9],
+        html:`<div style="transform:rotate(${ang}deg);color:#b3242a;font-size:15px;line-height:18px;text-align:center">➤</div>`})}).addTo(mapObj);
+      L.marker(mid,{icon:L.divIcon({className:'',iconAnchor:[-9,-5],
+        html:`<div style="background:#fff;border:1px solid #ddd;border-radius:8px;padding:1px 6px;font-size:10.5px;font-weight:700;color:#555;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.25)">${lg.icon} ${lg.label}</div>`})}).addTo(mapObj);
+    });
+    if(!DATA.legs) L.polyline(DATA.route,{color:'#b3242a',weight:2.5,dashArray:'6 7',opacity:.7}).addTo(mapObj);
+    DATA.cities.filter(c=>!c.transit).forEach(c=>{
       L.marker([c.lat,c.lng],{icon:L.divIcon({className:'',html:
         `<div style="background:${c.color};color:#fff;font-weight:800;font-size:11px;padding:3px 8px;border-radius:9px;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.4)">${c.name}</div>`,
         iconAnchor:[28,-8]})}).addTo(mapObj);

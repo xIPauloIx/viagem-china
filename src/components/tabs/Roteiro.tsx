@@ -19,7 +19,7 @@ export default function Roteiro() {
 
   const events: Ev[] = [];
   data.cities.forEach(c => {
-    if (!c.days.length) return;
+    if (!c.days.length || c.transit) return;
     const hotel = data.hotels.find(h =>
       c.name.toLowerCase().includes(h.city.toLowerCase()) ||
       h.city.toLowerCase().includes(c.name.split(' ')[0].toLowerCase()));

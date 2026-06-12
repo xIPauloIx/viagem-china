@@ -54,8 +54,34 @@ export default function Mapa() {
         `<span style="color:#666">${p.note ?? ''}</span>`);
     });
     if (filter === 'all') {
-      L.polyline(data.route, { color: '#b3242a', weight: 2.5, dashArray: '6 7', opacity: .65 }).addTo(g);
-      data.cities.forEach(c => {
+      // trechos com direção (seta) e meio de transporte
+      (data.legs ?? []).forEach(lg => {
+        L.polyline([lg.from, lg.to], {
+          color: '#b3242a', weight: lg.minor ? 1.5 : 2.5,
+          dashArray: '6 7', opacity: lg.minor ? .45 : .75,
+        }).addTo(g);
+        const [a, b] = [lg.from, lg.to];
+        const mid: [number, number] = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+        const x = (b[1] - a[1]) * Math.cos(((a[0] + b[0]) / 2) * Math.PI / 180);
+        const y = b[0] - a[0];
+        const ang = Math.atan2(x, y) * 180 / Math.PI - 90;
+        L.marker(mid, {
+          icon: L.divIcon({
+            className: '', iconSize: [18, 18], iconAnchor: [9, 9],
+            html: `<div style="transform:rotate(${ang}deg);color:#b3242a;font-size:15px;line-height:18px;text-align:center">➤</div>`,
+          }),
+        }).addTo(g);
+        L.marker(mid, {
+          icon: L.divIcon({
+            className: '', iconAnchor: [-9, -5],
+            html: `<div style="background:#fff;border:1px solid #ddd;border-radius:8px;padding:1px 6px;font-size:${lg.minor ? 10 : 11}px;font-weight:700;color:#555;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.25)">${lg.icon} ${lg.label}</div>`,
+          }),
+        }).addTo(g);
+      });
+      if (!data.legs) {
+        L.polyline(data.route, { color: '#b3242a', weight: 2.5, dashArray: '6 7', opacity: .65 }).addTo(g);
+      }
+      data.cities.filter(c => !c.transit).forEach(c => {
         L.marker([c.lat, c.lng], {
           icon: L.divIcon({
             className: '',
@@ -83,7 +109,7 @@ export default function Mapa() {
     <div>
       <div className="flex gap-2 overflow-x-auto pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         <Chip on={filter === 'all'} onClick={() => setFilter('all')}>Tudo</Chip>
-        {data.cities.map(c => (
+        {data.cities.filter(c => !c.transit).map(c => (
           <Chip key={c.id} on={filter === c.id} color={c.color} onClick={() => setFilter(c.id)}>{c.name}</Chip>
         ))}
       </div>

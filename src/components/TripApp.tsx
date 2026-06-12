@@ -12,6 +12,7 @@ import Hoteis from './tabs/Hoteis';
 import Trens from './tabs/Trens';
 import Atencao from './tabs/Atencao';
 import Frases from './tabs/Frases';
+import Docs from './tabs/Docs';
 
 const TABS: { id: TabId; label: string }[] = [
   { id: 'roteiro', label: '🧭 Roteiro' },
@@ -21,6 +22,7 @@ const TABS: { id: TabId; label: string }[] = [
   { id: 'voos', label: '✈️ Voos' },
   { id: 'hoteis', label: '🏨 Hotéis' },
   { id: 'trens', label: '🚄 Trens' },
+  { id: 'docs', label: '📎 Docs' },
   { id: 'atencao', label: '⚠️ Atenção' },
   { id: 'frases', label: '🗣️ Frases' },
 ];
@@ -165,6 +167,7 @@ export default function TripApp({ initialData, role, user }: {
           {tab === 'voos' && <Voos />}
           {tab === 'hoteis' && <Hoteis />}
           {tab === 'trens' && <Trens />}
+          {tab === 'docs' && <Docs />}
           {tab === 'atencao' && <Atencao />}
           {tab === 'frases' && <Frases />}
         </main>

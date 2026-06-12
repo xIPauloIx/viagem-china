@@ -1,12 +1,13 @@
 'use client';
 import { useState } from 'react';
 import { useTrip } from '../ctx';
-import { AddBtn, Card, DelBtn, EText, Notice } from '../ui';
+import { AddBtn, Card, Chip, DelBtn, EText, Notice } from '../ui';
 import type { Phrase } from '@/lib/types';
 
 export default function Frases() {
   const { data, canEdit, mutate } = useTrip();
   const [q, setQ] = useState('');
+  const [cat, setCat] = useState(0);
   const [modal, setModal] = useState<Phrase | null>(null);
   const ql = q.toLowerCase();
 
@@ -25,7 +26,14 @@ export default function Frases() {
       <Notice>👆 Toque numa frase para abrir em <b>tela cheia</b> e mostrar ao atendente.
         O 🔊 fala em chinês (se o aparelho tiver a voz instalada).</Notice>
 
+      <div className="flex gap-2 overflow-x-auto pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {data.phrases.map((g, gi) => (
+          <Chip key={gi} on={!ql && cat === gi} onClick={() => { setQ(''); setCat(gi); }}>{g.cat}</Chip>
+        ))}
+      </div>
+
       {data.phrases.map((g, gi) => {
+        if (!ql && gi !== cat) return null;
         const items = g.items.map((p, pi) => ({ p, pi })).filter(({ p }) =>
           !ql || p.pt.toLowerCase().includes(ql) || p.py.toLowerCase().includes(ql) || p.zh.includes(q));
         if (!items.length) return null;

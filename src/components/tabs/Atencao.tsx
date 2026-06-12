@@ -4,6 +4,7 @@ import { AddBtn, Card, DelBtn, EArea } from '../ui';
 
 export default function Atencao() {
   const { data, role, canEdit, mutate } = useTrip();
+  // canEdit (✏️) = editar textos; fora do modo edição, tocar no texto marca/desmarca
   const all = data.attention.flatMap(g => g.items);
   const done = all.filter(x => x.done).length;
   const pct = all.length ? Math.round((done / all.length) * 100) : 0;
@@ -31,17 +32,17 @@ export default function Atencao() {
               </span>
             </h3>
             {g.items.map((it, ii) => (
-              <label key={ii} className={`flex gap-3 items-start py-2 border-t border-inkline cursor-pointer
-                ${it.done ? 'opacity-55' : ''}`}>
+              <div key={ii} className={`flex gap-3 items-start py-2 border-t border-inkline ${it.done ? 'opacity-55' : ''}`}>
                 <input type="checkbox" checked={it.done} disabled={role !== 'editor'}
                   onChange={e => mutate(d => { d.attention[gi].items[ii].done = e.target.checked; })}
                   className="w-5 h-5 mt-0.5 accent-emerald-600 shrink-0 cursor-pointer" />
-                <div className={`flex-1 text-[13.5px] min-w-0 ${it.done ? 'line-through' : ''}`}>
+                <div className={`flex-1 text-[13.5px] min-w-0 ${it.done ? 'line-through' : ''} ${!canEdit && role === 'editor' ? 'cursor-pointer' : ''}`}
+                  onClick={() => { if (!canEdit && role === 'editor') mutate(d => { d.attention[gi].items[ii].done = !it.done; }); }}>
                   <EArea get={d => d.attention[gi].items[ii].text}
                     set={(d, v) => { d.attention[gi].items[ii].text = v; }} />
                 </div>
                 {canEdit && <DelBtn onClick={() => mutate(d => { d.attention[gi].items.splice(ii, 1); })} />}
-              </label>
+              </div>
             ))}
             {canEdit && <div className="mt-2">
               <AddBtn onClick={() => mutate(d => { d.attention[gi].items.push({ text: '', done: false }); })}>+ item</AddBtn>
