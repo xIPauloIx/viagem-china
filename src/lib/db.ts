@@ -26,15 +26,6 @@ async function ensure() {
     data JSONB NOT NULL,
     saved_at TIMESTAMPTZ NOT NULL DEFAULT now()
   )`);
-  await pool().query(`CREATE TABLE IF NOT EXISTS china_files (
-    id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL,
-    category TEXT NOT NULL DEFAULT 'outros',
-    mime TEXT,
-    size INT NOT NULL,
-    data BYTEA NOT NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
-  )`);
   ensured = true;
 }
 
@@ -57,33 +48,5 @@ export async function saveTrip(data: TripData): Promise<void> {
   );
 }
 
-/* ---------- arquivos (PDFs de reservas etc.) ---------- */
-
-export async function listFiles() {
-  await ensure();
-  const r = await pool().query(
-    `SELECT id, name, category, mime, size, created_at,
-            (SELECT COALESCE(SUM(size),0) FROM china_files) AS total
-     FROM china_files ORDER BY category, created_at DESC`);
-  return { files: r.rows, total: Number(r.rows[0]?.total ?? 0) };
-}
-
-export async function addFile(name: string, category: string, mime: string, buf: Buffer) {
-  await ensure();
-  const r = await pool().query(
-    `INSERT INTO china_files (name, category, mime, size, data)
-     VALUES ($1, $2, $3, $4, $5) RETURNING id`,
-    [name, category, mime, buf.length, buf]);
-  return r.rows[0].id as number;
-}
-
-export async function getFile(id: number) {
-  await ensure();
-  const r = await pool().query('SELECT name, mime, data FROM china_files WHERE id = $1', [id]);
-  return r.rows[0] as { name: string; mime: string; data: Buffer } | undefined;
-}
-
-export async function deleteFile(id: number) {
-  await ensure();
-  await pool().query('DELETE FROM china_files WHERE id = $1', [id]);
-}
+// Arquivos (PDFs de reservas etc.) ficam no Vercel Blob — ver src/lib/files.ts.
+// Decisão: nada de binário no Neon (limite de 512 MB é compartilhado com outros projetos).

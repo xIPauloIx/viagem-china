@@ -14,10 +14,6 @@ export interface Leg {
   from: [number, number]; to: [number, number];
   icon: string; label: string; minor?: boolean;
 }
-export interface DocFile {
-  id: number; name: string; category: string; mime: string;
-  size: number; created_at: string;
-}
 export interface OverviewDay { date: string; city: string; m: string; t: string; n: string }
 export interface Poi { city: string; name: string; lat: number; lng: number; note?: string; date?: string | null }
 export interface Flight {

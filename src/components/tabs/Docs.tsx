@@ -2,7 +2,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTrip } from '../ctx';
 import { Card, Notice } from '../ui';
-import type { DocFile } from '@/lib/types';
+
+interface DocFile {
+  pathname: string; name: string; category: string;
+  size: number; uploadedAt: string;
+}
 
 const CATS: { id: string; label: string }[] = [
   { id: 'voos', label: '✈️ Voos' },
@@ -49,7 +53,7 @@ export default function Docs() {
 
   async function del(f: DocFile) {
     if (!confirm(`Excluir "${f.name}"?`)) return;
-    await fetch(`/api/files/${f.id}`, { method: 'DELETE' });
+    await fetch(`/api/files/${f.pathname}`, { method: 'DELETE' });
     load();
   }
 
@@ -84,13 +88,13 @@ export default function Docs() {
             </div>
             {list.length === 0 && <p className="text-[12.5px] text-zinc-300 py-1">nenhum arquivo ainda</p>}
             {list.map(f => (
-              <div key={f.id} className="flex items-center gap-3 py-2 border-t border-inkline">
-                <span className="text-[18px]">{f.mime?.includes('pdf') ? '📄' : '🖼️'}</span>
-                <a href={`/api/files/${f.id}`} target="_blank" rel="noreferrer"
+              <div key={f.pathname} className="flex items-center gap-3 py-2 border-t border-inkline">
+                <span className="text-[18px]">{/\.pdf$/i.test(f.name) ? '📄' : '🖼️'}</span>
+                <a href={`/api/files/${f.pathname}`} target="_blank" rel="noreferrer"
                   className="flex-1 min-w-0 text-[13.5px] font-semibold text-zinc-700 hover:text-china truncate">
                   {f.name}
                   <span className="block text-[11px] font-normal text-zinc-400">
-                    {fmtKB(f.size)} · {new Date(f.created_at).toLocaleDateString('pt-BR')}
+                    {fmtKB(f.size)} · {new Date(f.uploadedAt).toLocaleDateString('pt-BR')}
                   </span>
                 </a>
                 {role === 'editor' && (
@@ -103,7 +107,7 @@ export default function Docs() {
       })}
 
       <p className="text-[11.5px] text-zinc-400 text-center">
-        Total armazenado: {fmtKB(total)} (limite do banco: 512 MB — sem risco)
+        Total armazenado: {fmtKB(total)} · Vercel Blob (1 GB grátis, separado do banco — zero impacto no Neon)
       </p>
     </div>
   );
