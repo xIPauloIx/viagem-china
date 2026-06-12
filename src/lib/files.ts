@@ -18,9 +18,11 @@ export async function listDocs(): Promise<{ files: StoredFile[]; total: number }
   const r = await list({ ...opts() });
   const files = r.blobs.map(b => {
     const [category, ...rest] = b.pathname.split('/');
+    const raw = rest.join('/') || b.pathname;
     return {
       pathname: b.pathname,
-      name: rest.join('/') || b.pathname,
+      // oculta o sufixo aleatório anti-colisão do put() no nome exibido
+      name: raw.replace(/-[A-Za-z0-9]{20,}(\.[A-Za-z0-9]+)$/, '$1'),
       category: rest.length ? category : 'outros',
       size: b.size,
       uploadedAt: (b.uploadedAt instanceof Date ? b.uploadedAt : new Date(b.uploadedAt)).toISOString(),
