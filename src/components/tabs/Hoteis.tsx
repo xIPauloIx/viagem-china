@@ -6,9 +6,9 @@ import { cityColor } from '@/lib/types';
 export default function Hoteis() {
   const { data, canEdit, mutate } = useTrip();
   return (
-    <div className="max-w-3xl mx-auto space-y-4">
-      <Notice>💡 Preencha o <b>Endereço (中文)</b> — é o que se mostra ao taxista/Didi.
-        Copie do Trip.com ou peça ao hotel.</Notice>
+    <div className="grid gap-4 lg:grid-cols-2 items-start">
+      <div className="lg:col-span-2 -mb-4"><Notice>💡 Preencha o <b>Endereço (中文)</b> — é o que se mostra ao taxista/Didi.
+        Copie do Trip.com ou peça ao hotel.</Notice></div>
       {data.hotels.map((h, i) => (
         <Card key={i} className="border-l-4" style={{ borderLeftColor: cityColor(h.city) }}>
           <div className="flex items-center justify-between gap-2">

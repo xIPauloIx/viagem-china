@@ -19,7 +19,7 @@ export default function Frases() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div>
       <input value={q} onChange={e => setQ(e.target.value)}
         placeholder="🔎 Buscar frase… (ex.: pimenta, banheiro, pagar)"
         className="w-full rounded-xl border border-zinc-200 bg-white px-4 py-3 text-[14px] outline-none focus:ring-2 focus:ring-china mb-3" />
@@ -40,6 +40,7 @@ export default function Frases() {
         return (
           <Card key={gi} className="mb-4">
             <h3 className="font-extrabold text-[14.5px] mb-1">{g.cat}</h3>
+            <div className="lg:grid lg:grid-cols-2 lg:gap-x-10">
             {items.map(({ p, pi }) => (
               <div key={pi}
                 className="flex items-center gap-3 py-2.5 border-t border-inkline cursor-pointer hover:bg-paper/70 transition rounded-md px-1 -mx-1"
@@ -58,6 +59,7 @@ export default function Frases() {
                 {canEdit && <DelBtn onClick={() => mutate(d => { d.phrases[gi].items.splice(pi, 1); })} />}
               </div>
             ))}
+            </div>
             {canEdit && <div className="mt-2">
               <AddBtn onClick={() => mutate(d => { d.phrases[gi].items.push({ pt: '', zh: '', py: '' }); })}>+ frase</AddBtn>
             </div>}

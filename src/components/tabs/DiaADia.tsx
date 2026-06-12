@@ -32,7 +32,8 @@ export default function DiaADia() {
   const day = city.days[cur.di];
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-6 lg:items-start">
+    <div className="min-w-0">
       {/* seletor de cidade */}
       <div className="flex gap-2 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {data.cities.map((c, ci) => (
@@ -105,9 +106,11 @@ export default function DiaADia() {
           </div>
         )}
       </Card>
+    </div>
 
-      {/* informações da cidade */}
-      <h3 className="font-extrabold text-[15px] mt-6 mb-2" style={{ color: city.color }}>
+    {/* informações da cidade — coluna lateral no desktop */}
+    <div className="lg:sticky lg:top-[120px]">
+      <h3 className="font-extrabold text-[15px] mt-6 lg:mt-0 mb-2" style={{ color: city.color }}>
         ℹ️ {city.name} — informações gerais
       </h3>
       {(Object.keys(SEC_LABELS) as (keyof CitySections)[]).map(k => {
@@ -133,6 +136,7 @@ export default function DiaADia() {
           </details>
         );
       })}
+    </div>
     </div>
   );
 }

@@ -60,16 +60,16 @@ export default function Docs() {
   const fmtKB = (n: number) => n > 950_000 ? `${(n / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`;
 
   return (
-    <div className="max-w-3xl mx-auto space-y-4">
-      <Notice>📎 Guarde aqui os PDFs de reservas, bilhetes e comprovantes — tudo num lugar só, acessível
+    <div className="grid gap-4 lg:grid-cols-2 items-start">
+      <div className="lg:col-span-2 -mb-4"><Notice>📎 Guarde aqui os PDFs de reservas, bilhetes e comprovantes — tudo num lugar só, acessível
         pelos dois. Máx. 4 MB por arquivo. <b>Dica:</b> baixe os importantes no celular antes de embarcar
-        (esta aba precisa de internet).</Notice>
+        (esta aba precisa de internet).</Notice></div>
 
       <input ref={inputRef} type="file" multiple className="hidden"
         accept=".pdf,.png,.jpg,.jpeg,.webp" onChange={e => onFiles(e.target.files)} />
 
-      {err && <div className="text-[13px] text-red-700 bg-red-50 border border-red-200 rounded-xl px-4 py-2">{err}</div>}
-      {busy && <div className="text-[13px] text-zinc-500">⏳ Enviando…</div>}
+      {err && <div className="lg:col-span-2 text-[13px] text-red-700 bg-red-50 border border-red-200 rounded-xl px-4 py-2">{err}</div>}
+      {busy && <div className="lg:col-span-2 text-[13px] text-zinc-500">⏳ Enviando…</div>}
 
       {CATS.map(cat => {
         const list = files.filter(f => f.category === cat.id);
@@ -106,7 +106,7 @@ export default function Docs() {
         );
       })}
 
-      <p className="text-[11.5px] text-zinc-400 text-center">
+      <p className="lg:col-span-2 text-[11.5px] text-zinc-400 text-center">
         Total armazenado: {fmtKB(total)} · Vercel Blob (1 GB grátis, separado do banco — zero impacto no Neon)
       </p>
     </div>

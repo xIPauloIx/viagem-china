@@ -6,7 +6,7 @@ import { fmtD } from '@/lib/types';
 export default function Voos() {
   const { data, canEdit, mutate } = useTrip();
   return (
-    <div className="max-w-3xl mx-auto space-y-4">
+    <div className="grid gap-4 lg:grid-cols-2 items-start">
       {data.flights.map((f, i) => (
         <Card key={i}>
           <div className="flex items-center justify-between gap-2">

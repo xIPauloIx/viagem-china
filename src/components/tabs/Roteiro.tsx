@@ -35,21 +35,85 @@ export default function Roteiro() {
   events.sort((a, b) => a.key - b.key);
 
   return (
-    <div className="max-w-3xl mx-auto">
-      <p className="text-[13px] text-zinc-500 mb-5">
-        A viagem inteira em sequência: onde vocês estarão, e como saem de um lugar para o outro.
-        Toque numa cidade para abrir o dia a dia, ou num trecho para ver detalhes.
-      </p>
+    <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8 lg:items-start">
+      <div className="min-w-0">
+        <p className="text-[13px] text-zinc-500 mb-5">
+          A viagem inteira em sequência: onde vocês estarão, e como saem de um lugar para o outro.
+          Toque numa cidade para abrir o dia a dia, ou num trecho para ver detalhes.
+        </p>
 
-      <Endpoint icon="🏠" title="São Paulo" sub="Qua • 30/set — saída de casa" />
+        <Endpoint icon="🏠" title="São Paulo" sub="Qua • 30/set — saída de casa" />
 
-      <div className="ml-[21px] border-l-2 border-dashed border-zinc-300">
-        {events.map((ev, i) => ev.kind === 'stay'
-          ? <StayNode key={i} ev={ev} onOpen={() => openDia(ev.city.id)} />
-          : <LegNode key={i} ev={ev} onOpen={() => goTab(ev.kind === 'flight' ? 'voos' : 'trens')} />)}
+        <div className="ml-[21px] border-l-2 border-dashed border-zinc-300">
+          {events.map((ev, i) => ev.kind === 'stay'
+            ? <StayNode key={i} ev={ev} onOpen={() => openDia(ev.city.id)} />
+            : <LegNode key={i} ev={ev} onOpen={() => goTab(ev.kind === 'flight' ? 'voos' : 'trens')} />)}
+        </div>
+
+        <Endpoint icon="🏠" title="São Paulo" sub="Ter • 20/out 10:40 — de volta! 🎉" />
       </div>
+      <Pendencias />
+    </div>
+  );
+}
 
-      <Endpoint icon="🏠" title="São Paulo" sub="Ter • 20/out 10:40 — de volta! 🎉" />
+function Pendencias() {
+  const { data, goTab } = useTrip();
+  const hoteis = data.hotels.filter(h => !h.name?.trim());
+  const trens = data.trains.filter(t => t.status?.includes('⏳'));
+  const voos = data.flights.filter(f => !f.num?.trim());
+  const att = data.attention.flatMap(g => g.items);
+  const attDone = att.filter(i => i.done).length;
+  const pct = att.length ? Math.round(attDone / att.length * 100) : 0;
+
+  const Row = ({ onClick, children }: { onClick: () => void; children: React.ReactNode }) => (
+    <button onClick={onClick}
+      className="w-full text-left text-[13px] py-2 border-t border-inkline hover:bg-paper transition cursor-pointer flex justify-between items-center gap-2">
+      {children}<span className="text-zinc-300">→</span>
+    </button>
+  );
+
+  return (
+    <div className="mt-8 lg:mt-0 lg:sticky lg:top-[120px] space-y-4">
+      <Card>
+        <h3 className="font-extrabold text-[14.5px] mb-1">📌 Pendências</h3>
+        {hoteis.length > 0 && (
+          <Row onClick={() => goTab('hoteis')}>
+            <span>🏨 <b>{hoteis.length}</b> hote{hoteis.length > 1 ? 'is' : 'l'} a definir
+              <span className="block text-[11.5px] text-zinc-400">{hoteis.map(h => h.city).join(' · ')}</span></span>
+          </Row>
+        )}
+        {trens.length > 0 && (
+          <Row onClick={() => goTab('trens')}>
+            <span>🚄 <b>{trens.length}</b> tre{trens.length > 1 ? 'ns' : 'm'} a comprar
+              <span className="block text-[11.5px] text-zinc-400">venda abre ~15 dias antes — Golden Week esgota!</span></span>
+          </Row>
+        )}
+        {voos.length > 0 && (
+          <Row onClick={() => goTab('voos')}>
+            <span>✈️ <b>{voos.length}</b> voo{voos.length > 1 ? 's' : ''} sem nº/horário</span>
+          </Row>
+        )}
+        <Row onClick={() => goTab('atencao')}>
+          <span>⚠️ Checklist: <b>{attDone}/{att.length}</b>
+            <span className="block h-1.5 bg-zinc-100 rounded-full mt-1.5 w-40 overflow-hidden">
+              <span className="block h-full bg-emerald-600 rounded-full" style={{ width: `${pct}%` }} /></span>
+          </span>
+        </Row>
+        {hoteis.length === 0 && trens.length === 0 && voos.length === 0 && attDone === att.length && (
+          <p className="text-[13px] text-emerald-700 py-2">✅ Tudo resolvido — só viajar!</p>
+        )}
+      </Card>
+      <Card>
+        <h3 className="font-extrabold text-[14.5px] mb-2">🧮 A viagem em números</h3>
+        <ul className="text-[13px] space-y-1.5 text-zinc-600">
+          <li>📆 <b>21</b> dias · <b>{data.cities.filter(c => !c.transit).length}</b> cidades</li>
+          <li>🚄 <b>{data.trains.length}</b> trechos de trem (2 noturnos + Maglev)</li>
+          <li>✈️ <b>{data.flights.length}</b> voos · 🏨 <b>{data.hotels.length}</b> estadias</li>
+          <li>📍 <b>{data.pois.length}</b> lugares no mapa</li>
+          <li>🗣️ <b>{data.phrases.reduce((a, g) => a + g.items.length, 0)}</b> frases de sobrevivência</li>
+        </ul>
+      </Card>
     </div>
   );
 }
@@ -88,11 +152,11 @@ function StayNode({ ev, onOpen }: { ev: Extract<Ev, { kind: 'stay' }>; onOpen: (
               : <span className="text-amber-700 bg-amber-50 border border-amber-200 rounded-md px-1.5 py-0.5">🏨 hotel a definir · {ev.hotel?.nights ?? ''}</span>}
           </div>
           {highlights.length > 0 && (
-            <ul className="mt-2 space-y-0.5">
+            <ul className="mt-2 grid gap-y-1 gap-x-5 sm:grid-cols-2">
               {c.days.map((d, i) => (
-                <li key={i} className="text-[13px] text-zinc-600 flex gap-2">
+                <li key={i} className="text-[13px] text-zinc-600 flex gap-2 min-w-0">
                   <span className="text-zinc-400 font-semibold w-[88px] shrink-0 whitespace-nowrap">{fmtD(d.date).split(' • ')[1]} {fmtD(d.date).split(' • ')[0]}</span>
-                  <span className="truncate">{d.title || '—'}</span>
+                  <span className="min-w-0">{d.title || '—'}</span>
                 </li>
               ))}
             </ul>

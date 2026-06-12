@@ -10,8 +10,8 @@ export default function Atencao() {
   const pct = all.length ? Math.round((done / all.length) * 100) : 0;
 
   return (
-    <div className="max-w-3xl mx-auto space-y-4">
-      <Card>
+    <div>
+      <Card className="mb-4">
         <div className="flex items-baseline justify-between">
           <h3 className="font-extrabold text-[15px]">Progresso geral</h3>
           <span className="text-[13px] font-bold text-zinc-500">{done}/{all.length} · {pct}%</span>
@@ -21,10 +21,11 @@ export default function Atencao() {
         </div>
       </Card>
 
+      <div className="lg:columns-2 lg:gap-4">
       {data.attention.map((g, gi) => {
         const gd = g.items.filter(x => x.done).length;
         return (
-          <Card key={gi}>
+          <Card key={gi} className="mb-4 break-inside-avoid">
             <h3 className="font-extrabold text-[14.5px] mb-1 flex items-center justify-between">
               {g.cat}
               <span className="text-[11.5px] font-bold bg-paper border border-inkline rounded-md px-2 py-0.5 text-zinc-500">
@@ -50,6 +51,7 @@ export default function Atencao() {
           </Card>
         );
       })}
+      </div>
     </div>
   );
 }

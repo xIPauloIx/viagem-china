@@ -6,9 +6,9 @@ import { fmtD } from '@/lib/types';
 export default function Trens() {
   const { data, canEdit, mutate } = useTrip();
   return (
-    <div className="max-w-3xl mx-auto space-y-4">
-      <Notice>⚠️ <b>Golden Week (01–08/out):</b> trens esgotam MUITO rápido — a venda abre ~15 dias antes
-        no 12306/Trip.com; compre no primeiro dia. O passaporte é o bilhete de embarque.</Notice>
+    <div className="grid gap-4 lg:grid-cols-2 items-start">
+      <div className="lg:col-span-2 -mb-4"><Notice>⚠️ <b>Golden Week (01–08/out):</b> trens esgotam MUITO rápido — a venda abre ~15 dias antes
+        no 12306/Trip.com; compre no primeiro dia. O passaporte é o bilhete de embarque.</Notice></div>
       {data.trains.map((t, i) => (
         <Card key={i}>
           <div className="flex items-center justify-between gap-2">
